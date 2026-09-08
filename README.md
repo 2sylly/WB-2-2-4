@@ -4,7 +4,7 @@ Experimental fork of [WynnBuilder](https://github.com/wynnbuilder/wynnbuilder.gi
 
 Run `python3 -m http.server 8765 --bind 127.0.0.1` in this directory, then open http://127.0.0.1:8765/builder/.
 
-Includes published item/ingredient rebalances and known ability changes. The Ritualist layout is provisional. Unpublished effects are explicitly excluded from totals; new ascensions are omitted. See [coverage and assumptions](docs/snapshot-2.2.4/README.md).
+Includes published item/ingredient rebalances and known ability changes. The Ritualist layout is provisional. Unpublished effects are explicitly excluded from totals; Masterwork Divzer, Sunstar, and Warp are included from user screenshots. See [coverage and assumptions](docs/snapshot-2.2.4/README.md).
 
 Older version data and stable item/aspect IDs are preserved. Snapshot links should be shared from this fork, not the official site.
 

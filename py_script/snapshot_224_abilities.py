@@ -194,7 +194,7 @@ def main():
         (ROOT/'data/baseline'/f'{filename}.json').write_text(json.dumps(data,ensure_ascii=False,indent=4 if filename in ['atree_constants','major_ids_clean'] else 2)+'\n')
     provisional=[n['display_name'] for n in tree['Shaman'] if n.get('snapshot_provisional')]
     unmodeled=[n['display_name'] for n in tree['Shaman'] if n.get('snapshot_unmodeled')]
-    (ROOT/'docs/snapshot-2.2.4/coverage.json').write_text(json.dumps({'source':'https://wynncraft.com/news/blog/581','beta_api_has_mantra':False,'provisional_nodes':provisional,'unmodeled_abilities':unmodeled,'omitted':['New mythic ascensions (user requested omission)','New items and ingredients without published stats'],'assumptions':['Frog Dance 300% preserves the previous 3:1 elemental split.','Greater Sacrifice costs 1 AP.','Awakened replaces Sundered Skies; Corporeal Manifestation is merged into it.','Depersonalization is replaced by Mantra because Masquerade was removed.']},indent=2)+'\n')
+    (ROOT/'docs/snapshot-2.2.4/coverage.json').write_text(json.dumps({'source':'https://wynncraft.com/news/blog/581','beta_api_has_mantra':False,'provisional_nodes':provisional,'unmodeled_abilities':unmodeled,'omitted':['Other ascensions without supplied stats','New items and ingredients without published stats'],'assumptions':['Frog Dance 300% preserves the previous 3:1 elemental split.','Greater Sacrifice costs 1 AP.','Awakened replaces Sundered Skies; Corporeal Manifestation is merged into it.','Depersonalization is replaced by Mantra because Masquerade was removed.']},indent=2)+'\n')
     print(f'Updated tree: {len(tree["Shaman"])} Shaman nodes; {len(provisional)} provisional nodes; {len(unmodeled)} abilities with unpublished effects.')
 
 if __name__=='__main__': main()

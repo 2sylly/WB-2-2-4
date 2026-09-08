@@ -217,7 +217,11 @@ function expandItem(item) {
         for (const id of rolledIDs) {
             let val = (item[id] || 0);
 
-            if (typeof val == 'object' && val['static']) {
+            if (item.snapshotRolls?.[id]) {
+                // Exact screenshot endpoints where the preview rounds differently.
+                minRolls.set(id,item.snapshotRolls[id][0]);
+                maxRolls.set(id,item.snapshotRolls[id][1]);
+            } else if (typeof val == 'object' && val['static']) {
                 // Static IDs that are per-item based
                 maxRolls.set(id,val['raw']);
                 minRolls.set(id,val['raw']);

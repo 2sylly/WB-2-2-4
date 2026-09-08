@@ -59,6 +59,27 @@ for (const clazz of ['Archer','Warrior','Mage','Assassin','Shaman']) {
 }
 const items=json('data/2.2.4.0/items.json').items;
 const byId=new Map(items.map(i=>[i.id,i]));
+assert.equal(byId.size,items.length,'item IDs must be unique');
+for (const [name,level,damage,rolls] of [
+    ['Divzer',110,['26-27','215-215'],{ls:[326,1413],ms:[7,31],sdRaw:[91,393],spd:[7,30]}],
+    ['Sunstar',109,['295-385','850-1055'],{ls:[248,1073],tDamPct:[8,33],mdPct:[3,14]}],
+    ['Warp',111,['40-65','140-160'],{mr:[-46,-25],aDamPct:[7,30],spRaw2:[-113,-488]}]
+]) {
+    const item=items.find(i=>i.name==='Masterwork '+name);
+    assert.equal(item.lvl,level);
+    assert.equal(item.nDam,damage[0]);
+    assert.equal(item[name==='Warp'?'aDam':'tDam'],damage[1]);
+    assert.ok(item.id+1 < 2**context.encData.ITEM_ID_BITLEN);
+    context.ascension=item;
+    const expanded=run(`Object.fromEntries(['minRolls','maxRolls'].map(k=>[k,Object.fromEntries(expandItem(ascension).get(k))]))`);
+    for(const [stat,range] of Object.entries(rolls)) assert.deepEqual([expanded.minRolls[stat],expanded.maxRolls[stat]],range,name+' '+stat);
+}
+result=run(`evaluateBuild('Mage',['Teleport'],['VORTEX'])`);
+assert.deepEqual(part(result,2,'Vortex').multipliers,[200,0,0,0,0,20]);
+assert.equal(result.spells[2].display,'Total Damage');
+assert.equal(part(result,2,'Single Teleport').hits.Vortex,1);
+assert.equal(part(result,2,'Total Damage').hits['Single Teleport'],1);
+
 assert.equal(items.find(i=>i.displayName==='Cancer').maxMana,31);
 assert.equal(items.find(i=>i.displayName==='Necrosis').maxMana,undefined);
 assert.equal(items.find(i=>i.displayName==='Tectonics').nDam,'130-150');

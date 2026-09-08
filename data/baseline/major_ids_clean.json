@@ -4623,5 +4623,43 @@
                 ]
             }
         ]
+    },
+    "VORTEX": {
+        "displayName": "Vortex",
+        "description": "Teleport pulls nearby enemies to you and blasts them away, dealing [neutral]200% and [air]20% area damage.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": "Teleport",
+                "dependencies": [
+                    "Teleport"
+                ],
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 2,
+                        "target_part": "Vortex",
+                        "behavior": "merge",
+                        "multipliers": [
+                            200,
+                            0,
+                            0,
+                            0,
+                            0,
+                            20
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 2,
+                        "target_part": "Single Teleport",
+                        "hits": {
+                            "Vortex": 1
+                        },
+                        "display": "Total Damage"
+                    }
+                ]
+            }
+        ]
     }
 }
