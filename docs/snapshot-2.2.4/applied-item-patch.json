@@ -1,0 +1,4822 @@
+[
+  {
+    "kind": "item",
+    "name": "Vengeance",
+    "path": [
+      "damPct"
+    ],
+    "before": 28,
+    "after": 54
+  },
+  {
+    "kind": "item",
+    "name": "Telo Pona",
+    "path": [
+      "int"
+    ],
+    "before": 12,
+    "after": 18
+  },
+  {
+    "kind": "item",
+    "name": "Reviled Saviour",
+    "path": [
+      "str"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Reviled Saviour",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Reviled Saviour",
+    "path": [
+      "hprPct"
+    ],
+    "before": -60,
+    "after": -23
+  },
+  {
+    "kind": "item",
+    "name": "Reviled Saviour",
+    "path": [
+      "spd"
+    ],
+    "before": 10,
+    "after": 20
+  },
+  {
+    "kind": "item",
+    "name": "Reviled Saviour",
+    "path": [
+      "damPct"
+    ],
+    "before": 15,
+    "after": 20
+  },
+  {
+    "kind": "item",
+    "name": "Last Stand",
+    "path": [
+      "defReq"
+    ],
+    "before": 85,
+    "after": 75
+  },
+  {
+    "kind": "item",
+    "name": "Last Stand",
+    "path": [
+      "agiReq"
+    ],
+    "before": 85,
+    "after": 75
+  },
+  {
+    "kind": "item",
+    "name": "Last Stand",
+    "path": [
+      "hp"
+    ],
+    "before": 6550,
+    "after": 7500
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "nDam"
+    ],
+    "before": "250-300",
+    "after": "220-280"
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "nDam"
+    ],
+    "before": "160-210",
+    "after": "150-190"
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "nDam"
+    ],
+    "before": "125-150",
+    "after": "115-125"
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "ms"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "ms"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "ms"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "ms"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "ms"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "mr"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "mr"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "mr"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "mr"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "mr"
+    ],
+    "before": 5,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "str"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "str"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "str"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "str"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "str"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Bow",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Spear",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Wand",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Dagger",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Infused Hive Relik",
+    "path": [
+      "agi"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "nDam"
+    ],
+    "before": "140-180",
+    "after": "170-210"
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "eDam"
+    ],
+    "before": "130-140",
+    "after": "160-180"
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "tDam"
+    ],
+    "before": "45-170",
+    "after": "45-200"
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "fDam"
+    ],
+    "before": "85-130",
+    "after": "125-170"
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "dexReq"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "defReq"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "atkTier"
+    ],
+    "before": 0,
+    "after": 2
+  },
+  {
+    "kind": "item",
+    "name": "Mark of the Huntsman",
+    "path": [
+      "mdRaw"
+    ],
+    "before": 769,
+    "after": 1154
+  },
+  {
+    "kind": "item",
+    "name": "Augury",
+    "path": [
+      "mr"
+    ],
+    "before": -12,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Stygian Spiral",
+    "path": [
+      "spRaw1"
+    ],
+    "before": 5,
+    "after": 4
+  },
+  {
+    "kind": "item",
+    "name": "Stygian Spiral",
+    "path": [
+      "int"
+    ],
+    "before": 0,
+    "after": 7
+  },
+  {
+    "kind": "item",
+    "name": "Propitious",
+    "path": [
+      "wSdPct"
+    ],
+    "before": 77,
+    "after": 92
+  },
+  {
+    "kind": "item",
+    "name": "Propitious",
+    "path": [
+      "aSdPct"
+    ],
+    "before": 77,
+    "after": 92
+  },
+  {
+    "kind": "item",
+    "name": "Propitious",
+    "path": [
+      "spRaw1"
+    ],
+    "before": 8,
+    "after": 5
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "nDam"
+    ],
+    "before": "46-200",
+    "after": "48-224"
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "eDam"
+    ],
+    "before": "95-550",
+    "after": "168-528"
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "fDam"
+    ],
+    "before": "95-550",
+    "after": "168-528"
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "strReq"
+    ],
+    "before": 50,
+    "after": 48
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "defReq"
+    ],
+    "before": 88,
+    "after": 80
+  },
+  {
+    "kind": "item",
+    "name": "Folds of Infinity",
+    "path": [
+      "rMdPct"
+    ],
+    "before": 0,
+    "after": 24
+  },
+  {
+    "kind": "item",
+    "name": "Mana Lance",
+    "path": [
+      "mainAttackRange"
+    ],
+    "before": 30,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Mana Lance",
+    "path": [
+      "mr"
+    ],
+    "before": 8,
+    "after": 13
+  },
+  {
+    "kind": "item",
+    "name": "Mana Lance",
+    "path": [
+      "ms"
+    ],
+    "before": 8,
+    "after": 13
+  },
+  {
+    "kind": "item",
+    "name": "Bullseye",
+    "path": [
+      "xpb"
+    ],
+    "before": 0,
+    "after": 6
+  },
+  {
+    "kind": "item",
+    "name": "Bullseye",
+    "path": [
+      "ms"
+    ],
+    "before": 0,
+    "after": 4
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "nDam"
+    ],
+    "before": "325-375",
+    "after": "375-425"
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "fDam"
+    ],
+    "before": "750-1250",
+    "after": "850-1350"
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "fDamPct"
+    ],
+    "before": 0,
+    "after": 20
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "tSdRaw"
+    ],
+    "before": 196,
+    "after": 219
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "fMdPct"
+    ],
+    "before": 60,
+    "after": 50
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "spPct1"
+    ],
+    "before": 28,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Crucible",
+    "path": [
+      "spPct2"
+    ],
+    "before": 70,
+    "after": 57
+  },
+  {
+    "kind": "item",
+    "name": "Incognito",
+    "path": [
+      "atkTier"
+    ],
+    "before": 1,
+    "after": 2
+  },
+  {
+    "kind": "item",
+    "name": "Incognito",
+    "path": [
+      "spPct2"
+    ],
+    "before": 0,
+    "after": -21
+  },
+  {
+    "kind": "item",
+    "name": "Wicked Harmony",
+    "path": [
+      "tSdRaw"
+    ],
+    "before": 154,
+    "after": 173
+  },
+  {
+    "kind": "item",
+    "name": "Carte Blanche",
+    "path": [
+      "xpb"
+    ],
+    "before": 15,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "The Incomprehensible",
+    "path": [
+      "eDamPct"
+    ],
+    "before": 31,
+    "after": 37
+  },
+  {
+    "kind": "item",
+    "name": "The Incomprehensible",
+    "path": [
+      "tDamPct"
+    ],
+    "before": -23,
+    "after": -19
+  },
+  {
+    "kind": "item",
+    "name": "The Incomprehensible",
+    "path": [
+      "spPct3"
+    ],
+    "before": -13,
+    "after": -19
+  },
+  {
+    "kind": "item",
+    "name": "Diamond Blade",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 308,
+    "after": 320
+  },
+  {
+    "kind": "item",
+    "name": "Manna",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 294,
+    "after": 320
+  },
+  {
+    "kind": "item",
+    "name": "Dreamer's Soul",
+    "path": [
+      "maxMana"
+    ],
+    "before": 0,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Dreamer's Soul",
+    "path": [
+      "hpBonus"
+    ],
+    "before": -2500,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Dreamer's Soul",
+    "path": [
+      "mr"
+    ],
+    "before": 0,
+    "after": -28
+  },
+  {
+    "kind": "item",
+    "name": "Hydrotoxemia",
+    "path": [
+      "hpBonus"
+    ],
+    "before": -4000,
+    "after": -3250
+  },
+  {
+    "kind": "item",
+    "name": "Dawn Chaser",
+    "path": [
+      "spd"
+    ],
+    "before": -30,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Dawn Chaser",
+    "path": [
+      "str"
+    ],
+    "before": 12,
+    "after": 24
+  },
+  {
+    "kind": "item",
+    "name": "Tectonics֎",
+    "path": [
+      "nDam"
+    ],
+    "before": "110-130",
+    "after": "130-150"
+  },
+  {
+    "kind": "item",
+    "name": "Tectonics֎",
+    "path": [
+      "eDam"
+    ],
+    "before": "230-305",
+    "after": "280-305"
+  },
+  {
+    "kind": "item",
+    "name": "Tectonics֎",
+    "path": [
+      "maxMana"
+    ],
+    "before": -25,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Tectonics֎",
+    "path": [
+      "ms"
+    ],
+    "before": 12,
+    "after": 18
+  },
+  {
+    "kind": "item",
+    "name": "Cerberus",
+    "path": [
+      "dexReq"
+    ],
+    "before": 60,
+    "after": 55
+  },
+  {
+    "kind": "item",
+    "name": "Cerberus",
+    "path": [
+      "defReq"
+    ],
+    "before": 65,
+    "after": 60
+  },
+  {
+    "kind": "item",
+    "name": "Cerberus",
+    "path": [
+      "dex"
+    ],
+    "before": 0,
+    "after": 8
+  },
+  {
+    "kind": "item",
+    "name": "Cerberus",
+    "path": [
+      "def"
+    ],
+    "before": 0,
+    "after": 8
+  },
+  {
+    "kind": "item",
+    "name": "Spectral Psalm",
+    "path": [
+      "dexReq"
+    ],
+    "before": 65,
+    "after": 55
+  },
+  {
+    "kind": "item",
+    "name": "Spectral Psalm",
+    "path": [
+      "agiReq"
+    ],
+    "before": 55,
+    "after": 45
+  },
+  {
+    "kind": "item",
+    "name": "Spectral Psalm",
+    "path": [
+      "sdPct"
+    ],
+    "before": 20,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Spectral Psalm",
+    "path": [
+      "spRaw1"
+    ],
+    "before": -5,
+    "after": -7
+  },
+  {
+    "kind": "item",
+    "name": "Tremorcaller",
+    "path": [
+      "eSdPct"
+    ],
+    "before": 20,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Tremorcaller",
+    "path": [
+      "aSdPct"
+    ],
+    "before": 20,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Tremorcaller",
+    "path": [
+      "spd"
+    ],
+    "before": -15,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Tremorcaller",
+    "path": [
+      "str"
+    ],
+    "before": 10,
+    "after": 25
+  },
+  {
+    "kind": "item",
+    "name": "Gift of the Magi",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 294,
+    "after": 360
+  },
+  {
+    "kind": "item",
+    "name": "Impetus",
+    "path": [
+      "hprPct"
+    ],
+    "before": -63,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Aphotic",
+    "path": [
+      "sdPct"
+    ],
+    "before": 50,
+    "after": 42
+  },
+  {
+    "kind": "item",
+    "name": "Frigg's Vow",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 308,
+    "after": 350
+  },
+  {
+    "kind": "item",
+    "name": "Monk's Cowl",
+    "path": [
+      "maxMana"
+    ],
+    "before": 15,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Monk's Cowl",
+    "path": [
+      "mr"
+    ],
+    "before": 0,
+    "after": 6
+  },
+  {
+    "kind": "item",
+    "name": "Utilitarian",
+    "path": [
+      "spPct2"
+    ],
+    "before": -21,
+    "after": -24
+  },
+  {
+    "kind": "item",
+    "name": "Utilitarian",
+    "path": [
+      "spPct4"
+    ],
+    "before": -21,
+    "after": -24
+  },
+  {
+    "kind": "item",
+    "name": "Withdrawal",
+    "path": [
+      "damPct"
+    ],
+    "before": 28,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Withdrawal",
+    "path": [
+      "damRaw"
+    ],
+    "before": 160,
+    "after": 142
+  },
+  {
+    "kind": "item",
+    "name": "Mothwing Cloak",
+    "path": [
+      "hp"
+    ],
+    "before": 4500,
+    "after": 5000
+  },
+  {
+    "kind": "item",
+    "name": "Mothwing Cloak",
+    "path": [
+      "ls"
+    ],
+    "before": 0,
+    "after": 323
+  },
+  {
+    "kind": "item",
+    "name": "Shogun",
+    "path": [
+      "sdPct"
+    ],
+    "before": 20,
+    "after": 16
+  },
+  {
+    "kind": "item",
+    "name": "Heart of the Forest",
+    "path": [
+      "mr"
+    ],
+    "before": 12,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Heart of the Forest",
+    "path": [
+      "eSdRaw"
+    ],
+    "before": 192,
+    "after": 165
+  },
+  {
+    "kind": "item",
+    "name": "Tautology",
+    "path": [
+      "sdPct"
+    ],
+    "before": 13,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Tautology",
+    "path": [
+      "rSdPct"
+    ],
+    "before": 13,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Tautology",
+    "path": [
+      "rDefPct"
+    ],
+    "before": 36,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Darkiron Aegis",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 308,
+    "after": 320
+  },
+  {
+    "kind": "item",
+    "name": "Assimilation",
+    "path": [
+      "hp"
+    ],
+    "before": 4625,
+    "after": 4225
+  },
+  {
+    "kind": "item",
+    "name": "Assimilation",
+    "path": [
+      "expd"
+    ],
+    "before": 0,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Omniverse",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 28
+  },
+  {
+    "kind": "item",
+    "name": "Omniverse",
+    "path": [
+      "rSdRaw"
+    ],
+    "before": 180,
+    "after": 154
+  },
+  {
+    "kind": "item",
+    "name": "Hephaestus-Forged Greaves",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 560,
+    "after": 600
+  },
+  {
+    "kind": "item",
+    "name": "Waist Apron",
+    "path": [
+      "thorns"
+    ],
+    "before": 8,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Waist Apron",
+    "path": [
+      "expd"
+    ],
+    "before": 8,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Waist Apron",
+    "path": [
+      "xpb"
+    ],
+    "before": 5,
+    "after": 6
+  },
+  {
+    "kind": "item",
+    "name": "Waist Apron",
+    "path": [
+      "maxMana"
+    ],
+    "before": 0,
+    "after": 15
+  },
+  {
+    "kind": "item",
+    "name": "Waist Apron",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 0,
+    "after": 3
+  },
+  {
+    "kind": "item",
+    "name": "Martingale",
+    "path": [
+      "spPct2"
+    ],
+    "before": 18,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Martingale",
+    "path": [
+      "spPct4"
+    ],
+    "before": 14,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Dodge Core",
+    "path": [
+      "aDef"
+    ],
+    "before": 0,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Dodge Core",
+    "path": [
+      "hprPct"
+    ],
+    "before": 12,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Dodge Core",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 0,
+    "after": 66
+  },
+  {
+    "kind": "item",
+    "name": "Harden Core",
+    "path": [
+      "rDefPct"
+    ],
+    "before": 0,
+    "after": 9
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "hp"
+    ],
+    "before": 0,
+    "after": -350
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "eDef"
+    ],
+    "before": 0,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "tDef"
+    ],
+    "before": 0,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "ls"
+    ],
+    "before": 80,
+    "after": 100
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "mainAttackRange"
+    ],
+    "before": 0,
+    "after": 9
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "sdPct"
+    ],
+    "before": 10,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "mdPct"
+    ],
+    "before": 10,
+    "after": 0
+  },
+  {
+    "kind": "item",
+    "name": "Hustle Core",
+    "path": [
+      "damPct"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Synchro Core",
+    "path": [
+      "hp"
+    ],
+    "before": 0,
+    "after": 400
+  },
+  {
+    "kind": "item",
+    "name": "Synchro Core",
+    "path": [
+      "xpb"
+    ],
+    "before": 10,
+    "after": 12
+  },
+  {
+    "kind": "item",
+    "name": "Synchro Core",
+    "path": [
+      "ref"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Synchro Core",
+    "path": [
+      "sprint"
+    ],
+    "before": 0,
+    "after": 12
+  },
+  {
+    "kind": "item",
+    "name": "Overload Core",
+    "path": [
+      "hp"
+    ],
+    "before": 0,
+    "after": 400
+  },
+  {
+    "kind": "item",
+    "name": "Overload Core",
+    "path": [
+      "xpb"
+    ],
+    "before": 10,
+    "after": 12
+  },
+  {
+    "kind": "item",
+    "name": "Overload Core",
+    "path": [
+      "thorns"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Overload Core",
+    "path": [
+      "sprintReg"
+    ],
+    "before": 0,
+    "after": 12
+  },
+  {
+    "kind": "ingredient",
+    "name": "Deep Ice Core",
+    "path": [
+      "ids",
+      "maxMana"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 10
+    }
+  },
+  {
+    "kind": "item",
+    "name": "Hadal",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Riptide",
+    "path": [
+      "maxMana"
+    ],
+    "before": 80,
+    "after": 60
+  },
+  {
+    "kind": "item",
+    "name": "Transfiguration",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Flaming Soul",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Tides of Mist",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Tides of Mist",
+    "path": [
+      "healPct"
+    ],
+    "before": 10,
+    "after": 17
+  },
+  {
+    "kind": "item",
+    "name": "Dreamstealer",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Apath",
+    "path": [
+      "maxMana"
+    ],
+    "before": -50,
+    "after": -25
+  },
+  {
+    "kind": "item",
+    "name": "Grateful Dead",
+    "path": [
+      "mr"
+    ],
+    "before": 8,
+    "after": 9
+  },
+  {
+    "kind": "item",
+    "name": "Grateful Dead",
+    "path": [
+      "ms"
+    ],
+    "before": 8,
+    "after": 9
+  },
+  {
+    "kind": "item",
+    "name": "Grateful Dead",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Fever Dream",
+    "path": [
+      "maxMana"
+    ],
+    "before": -26,
+    "after": -17
+  },
+  {
+    "kind": "item",
+    "name": "Last Perdition",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Moonlight",
+    "path": [
+      "wDefPct"
+    ],
+    "before": 10,
+    "after": 25
+  },
+  {
+    "kind": "item",
+    "name": "Moonlight",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Pangea",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 24
+  },
+  {
+    "kind": "item",
+    "name": "Submerger",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Jurisdiction",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 46
+  },
+  {
+    "kind": "item",
+    "name": "Mistmonger",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 37
+  },
+  {
+    "kind": "item",
+    "name": "Mistmonger",
+    "path": [
+      "jh"
+    ],
+    "before": 0,
+    "after": 1
+  },
+  {
+    "kind": "item",
+    "name": "Mistmonger",
+    "path": [
+      "slowEnemy"
+    ],
+    "before": 8,
+    "after": 11
+  },
+  {
+    "kind": "item",
+    "name": "Nihil",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Chanterelle",
+    "path": [
+      "maxMana"
+    ],
+    "before": -35,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Chanterelle",
+    "path": [
+      "hprPct"
+    ],
+    "before": -50,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Horamancer",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Horamancer",
+    "path": [
+      "rSdRaw"
+    ],
+    "before": 169,
+    "after": 208
+  },
+  {
+    "kind": "item",
+    "name": "Overexertion",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Scavenger",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -16
+  },
+  {
+    "kind": "item",
+    "name": "Stormcloud",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 45
+  },
+  {
+    "kind": "item",
+    "name": "Windwhistle",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Windwhistle",
+    "path": [
+      "mr"
+    ],
+    "before": 10,
+    "after": 13
+  },
+  {
+    "kind": "item",
+    "name": "Thanos Siege Bow",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -15
+  },
+  {
+    "kind": "item",
+    "name": "Hope",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Hope",
+    "path": [
+      "mr"
+    ],
+    "before": 6,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Hope",
+    "path": [
+      "hpBonus"
+    ],
+    "before": 0,
+    "after": 731
+  },
+  {
+    "kind": "item",
+    "name": "Hope",
+    "path": [
+      "hprRaw"
+    ],
+    "before": 0,
+    "after": 104
+  },
+  {
+    "kind": "item",
+    "name": "Aquifer Bolt",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Medecin",
+    "path": [
+      "sdPct"
+    ],
+    "before": 10,
+    "after": 12
+  },
+  {
+    "kind": "item",
+    "name": "Medecin",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Battery Shot",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Meerschaum",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Meerschaum",
+    "path": [
+      "spPct3"
+    ],
+    "before": -23,
+    "after": -46
+  },
+  {
+    "kind": "item",
+    "name": "Shock and Awe",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Last Breath",
+    "path": [
+      "maxMana"
+    ],
+    "before": -80,
+    "after": -60
+  },
+  {
+    "kind": "item",
+    "name": "Bylvis' Pitchfork",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Zephra Shredder",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Nightstar",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Nightstar",
+    "path": [
+      "xpb"
+    ],
+    "before": 8,
+    "after": 14
+  },
+  {
+    "kind": "item",
+    "name": "Algaa",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Flaming War Spear",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Archpriest",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Upgraded Archpriest",
+    "path": [
+      "maxMana"
+    ],
+    "before": 25,
+    "after": 13
+  },
+  {
+    "kind": "item",
+    "name": "Isaz",
+    "path": [
+      "maxMana"
+    ],
+    "before": 20,
+    "after": 14
+  },
+  {
+    "kind": "item",
+    "name": "Bog Painter",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Bog Painter",
+    "path": [
+      "rSdPct"
+    ],
+    "before": 23,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Bog Painter",
+    "path": [
+      "rSdRaw"
+    ],
+    "before": 0,
+    "after": 192
+  },
+  {
+    "kind": "item",
+    "name": "Wrath of the Rising Tide",
+    "path": [
+      "tDam"
+    ],
+    "before": "110-220",
+    "after": "25-425"
+  },
+  {
+    "kind": "item",
+    "name": "Wrath of the Rising Tide",
+    "path": [
+      "wDam"
+    ],
+    "before": "325-850",
+    "after": "575-975"
+  },
+  {
+    "kind": "item",
+    "name": "Wrath of the Rising Tide",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Brilliant Waves",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Duplicity",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -25
+  },
+  {
+    "kind": "item",
+    "name": "Ellipsism",
+    "path": [
+      "hprPct"
+    ],
+    "before": -50,
+    "after": -13
+  },
+  {
+    "kind": "item",
+    "name": "Ellipsism",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "The Nihilist",
+    "path": [
+      "maxMana"
+    ],
+    "before": -25,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Static Rain",
+    "path": [
+      "maxMana"
+    ],
+    "before": -28,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Shun the Mind",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Manablast",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 35
+  },
+  {
+    "kind": "item",
+    "name": "Layton",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Bard's Song",
+    "path": [
+      "healPct"
+    ],
+    "before": 12,
+    "after": 14
+  },
+  {
+    "kind": "item",
+    "name": "Bard's Song",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Holly",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 25
+  },
+  {
+    "kind": "item",
+    "name": "Waves Raiser",
+    "path": [
+      "maxMana"
+    ],
+    "before": 30,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Frost Stake",
+    "path": [
+      "slowEnemy"
+    ],
+    "before": 11,
+    "after": 20
+  },
+  {
+    "kind": "item",
+    "name": "Frost Stake",
+    "path": [
+      "maxMana"
+    ],
+    "before": -44,
+    "after": -34
+  },
+  {
+    "kind": "item",
+    "name": "Yoreh",
+    "path": [
+      "maxMana"
+    ],
+    "before": -50,
+    "after": -40
+  },
+  {
+    "kind": "item",
+    "name": "Silksong",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Lucky Strike",
+    "path": [
+      "maxMana"
+    ],
+    "before": -21,
+    "after": -5
+  },
+  {
+    "kind": "item",
+    "name": "Flashflood",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Infatuation",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -15
+  },
+  {
+    "kind": "item",
+    "name": "The Mind",
+    "path": [
+      "maxMana"
+    ],
+    "before": 28,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Ocelot Claw",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Charon's Left Arm",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -8
+  },
+  {
+    "kind": "item",
+    "name": "Galleon",
+    "path": [
+      "maxMana"
+    ],
+    "before": 69,
+    "after": 58
+  },
+  {
+    "kind": "item",
+    "name": "Revision",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Wysteria Glooms",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 46
+  },
+  {
+    "kind": "item",
+    "name": "Carcinization",
+    "path": [
+      "maxMana"
+    ],
+    "before": 36,
+    "after": 29
+  },
+  {
+    "kind": "item",
+    "name": "Carcinization",
+    "path": [
+      "eDamPct"
+    ],
+    "before": 25,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Carcinization",
+    "path": [
+      "wDamPct"
+    ],
+    "before": 25,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Song of the Sea",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Diurnal",
+    "path": [
+      "maxMana"
+    ],
+    "before": -50,
+    "after": -30
+  },
+  {
+    "kind": "item",
+    "name": "Hadean",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -17
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "hp"
+    ],
+    "before": 2700,
+    "after": 2850
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "hprPct"
+    ],
+    "before": -75,
+    "after": -30
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "ls"
+    ],
+    "before": -300,
+    "after": -250
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "rDamRaw"
+    ],
+    "before": 192,
+    "after": 208
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "mainAttackRange"
+    ],
+    "before": 40,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Space Dust",
+    "path": [
+      "maxMana"
+    ],
+    "before": 92,
+    "after": 77
+  },
+  {
+    "kind": "item",
+    "name": "Subterrestrial",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Liffmail Sollerets",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -15
+  },
+  {
+    "kind": "item",
+    "name": "Dehydrated",
+    "path": [
+      "maxMana"
+    ],
+    "before": -35,
+    "after": -23
+  },
+  {
+    "kind": "item",
+    "name": "Platonic Ideal",
+    "path": [
+      "maxMana"
+    ],
+    "before": 69,
+    "after": 58
+  },
+  {
+    "kind": "item",
+    "name": "Verglas Spirit",
+    "path": [
+      "maxMana"
+    ],
+    "before": -50,
+    "after": -40
+  },
+  {
+    "kind": "item",
+    "name": "Tessera-laden Moccasins",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 34
+  },
+  {
+    "kind": "item",
+    "name": "Tessera-laden Moccasins",
+    "path": [
+      "damPct"
+    ],
+    "before": 20,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Tessera-laden Moccasins",
+    "path": [
+      "sprintReg"
+    ],
+    "before": 15,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Radiation",
+    "path": [
+      "maxMana"
+    ],
+    "before": -25,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Riverflow",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Muskeg",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Adigard's Snowshoes",
+    "path": [
+      "maxMana"
+    ],
+    "before": 25,
+    "after": 13
+  },
+  {
+    "kind": "item",
+    "name": "Mystic Sandals",
+    "path": [
+      "maxMana"
+    ],
+    "before": 15,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Ado Saki",
+    "path": [
+      "maxMana"
+    ],
+    "before": 20,
+    "after": 11
+  },
+  {
+    "kind": "item",
+    "name": "Wilted Orchard",
+    "path": [
+      "hprPct"
+    ],
+    "before": -70,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Wilted Orchard",
+    "path": [
+      "maxMana"
+    ],
+    "before": 43,
+    "after": 38
+  },
+  {
+    "kind": "item",
+    "name": "Wilted Orchard",
+    "path": [
+      "rSdPct"
+    ],
+    "before": 21,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Wilted Orchard",
+    "path": [
+      "atkTier"
+    ],
+    "before": {
+      "static": true,
+      "raw": -5
+    },
+    "after": {
+      "static": true,
+      "raw": -10
+    }
+  },
+  {
+    "kind": "item",
+    "name": "Deep Blue",
+    "path": [
+      "maxMana"
+    ],
+    "before": 77,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Deep Blue",
+    "path": [
+      "spRaw2"
+    ],
+    "before": -6,
+    "after": -13
+  },
+  {
+    "kind": "item",
+    "name": "Deep Blue",
+    "path": [
+      "mr"
+    ],
+    "before": -10,
+    "after": -9
+  },
+  {
+    "kind": "item",
+    "name": "Greaves of Purest Obsidian",
+    "path": [
+      "atkTier"
+    ],
+    "before": {
+      "static": true,
+      "raw": -8
+    },
+    "after": {
+      "static": true,
+      "raw": -20
+    }
+  },
+  {
+    "kind": "item",
+    "name": "Greaves of Purest Obsidian",
+    "path": [
+      "eMdRaw"
+    ],
+    "before": 1150,
+    "after": 2000
+  },
+  {
+    "kind": "item",
+    "name": "Greaves of Purest Obsidian",
+    "path": [
+      "eMdPct"
+    ],
+    "before": 60,
+    "after": 50
+  },
+  {
+    "kind": "item",
+    "name": "Greaves of Purest Obsidian",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -25
+  },
+  {
+    "kind": "item",
+    "name": "Greaves of Purest Obsidian",
+    "path": [
+      "mainAttackRange"
+    ],
+    "before": 20,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Raindrop Rally",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Mist Unit Trousers",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Mist Unit Trousers",
+    "path": [
+      "spd"
+    ],
+    "before": 0,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Enshrouded Eruption",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Enshrouded Eruption",
+    "path": [
+      "spPct2"
+    ],
+    "before": -20,
+    "after": -31
+  },
+  {
+    "kind": "item",
+    "name": "Archean",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Blue Grotto",
+    "path": [
+      "maxMana"
+    ],
+    "before": 60,
+    "after": 30
+  },
+  {
+    "kind": "item",
+    "name": "Blue Grotto",
+    "path": [
+      "mr"
+    ],
+    "before": 10,
+    "after": 11
+  },
+  {
+    "kind": "item",
+    "name": "Blue Grotto",
+    "path": [
+      "damPct"
+    ],
+    "before": -15,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Aquifer",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Aquifer",
+    "path": [
+      "wSdPct"
+    ],
+    "before": 15,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Artificial",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Radiator",
+    "path": [
+      "maxMana"
+    ],
+    "before": -15,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Hydraulic",
+    "path": [
+      "maxMana"
+    ],
+    "before": -40,
+    "after": -25
+  },
+  {
+    "kind": "item",
+    "name": "Hydraulic",
+    "path": [
+      "mr"
+    ],
+    "before": 9,
+    "after": 11
+  },
+  {
+    "kind": "item",
+    "name": "Arctic Vixen's Pelt",
+    "path": [
+      "maxMana"
+    ],
+    "before": -25,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Nacreous",
+    "path": [
+      "maxMana"
+    ],
+    "before": 27,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Kaas' Fur",
+    "path": [
+      "maxMana"
+    ],
+    "before": 30,
+    "after": 18
+  },
+  {
+    "kind": "item",
+    "name": "Raecard",
+    "path": [
+      "maxMana"
+    ],
+    "before": 20,
+    "after": 14
+  },
+  {
+    "kind": "item",
+    "name": "Novocaine",
+    "path": [
+      "maxMana"
+    ],
+    "before": -25,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Novocaine",
+    "path": [
+      "ms"
+    ],
+    "before": 8,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Rustblood",
+    "path": [
+      "atkTier"
+    ],
+    "before": {
+      "static": true,
+      "raw": -4
+    },
+    "after": {
+      "static": true,
+      "raw": -10
+    }
+  },
+  {
+    "kind": "item",
+    "name": "Rustblood",
+    "path": [
+      "ms"
+    ],
+    "before": 9,
+    "after": 11
+  },
+  {
+    "kind": "item",
+    "name": "Rustblood",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -12
+  },
+  {
+    "kind": "item",
+    "name": "Reserved",
+    "path": [
+      "maxMana"
+    ],
+    "before": 70,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Reserved",
+    "path": [
+      "mainAttackRange"
+    ],
+    "before": -50,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Subduction",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "April",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Snow Veil",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 36
+  },
+  {
+    "kind": "item",
+    "name": "Bone-Dry Breastplate",
+    "path": [
+      "maxMana"
+    ],
+    "before": -29,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Orographine",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Electrum",
+    "path": [
+      "maxMana"
+    ],
+    "before": -20,
+    "after": -16
+  },
+  {
+    "kind": "item",
+    "name": "Hailstone",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Brook Keeper",
+    "path": [
+      "maxMana"
+    ],
+    "before": 25,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Squid's Heart",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 23
+  },
+  {
+    "kind": "item",
+    "name": "Nexus",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Fleeting Memories",
+    "path": [
+      "maxMana"
+    ],
+    "before": 77,
+    "after": 46
+  },
+  {
+    "kind": "item",
+    "name": "Fleeting Memories",
+    "path": [
+      "mr"
+    ],
+    "before": -18,
+    "after": -12
+  },
+  {
+    "kind": "item",
+    "name": "Rhetoric",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Confinement",
+    "path": [
+      "maxMana"
+    ],
+    "before": -40,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Recalculator",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Gambler's Ruin",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Flower Crown",
+    "path": [
+      "hp"
+    ],
+    "before": 2900,
+    "after": 3200
+  },
+  {
+    "kind": "item",
+    "name": "Flower Crown",
+    "path": [
+      "maxMana"
+    ],
+    "before": 60,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Taciturn",
+    "path": [
+      "maxMana"
+    ],
+    "before": 54,
+    "after": 46
+  },
+  {
+    "kind": "item",
+    "name": "Concussion",
+    "path": [
+      "maxMana"
+    ],
+    "before": -23,
+    "after": -18
+  },
+  {
+    "kind": "item",
+    "name": "Cancer֎",
+    "path": [
+      "maxMana"
+    ],
+    "before": 40,
+    "after": 31
+  },
+  {
+    "kind": "item",
+    "name": "Ghostly Quasar",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -14
+  },
+  {
+    "kind": "item",
+    "name": "Pulse Storm",
+    "path": [
+      "maxMana"
+    ],
+    "before": -40,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Mist",
+    "path": [
+      "maxMana"
+    ],
+    "before": 35,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Mist",
+    "path": [
+      "spRaw2"
+    ],
+    "before": -4,
+    "after": -6
+  },
+  {
+    "kind": "item",
+    "name": "Megalophobia",
+    "path": [
+      "maxMana"
+    ],
+    "before": 46,
+    "after": 40
+  },
+  {
+    "kind": "item",
+    "name": "Megalophobia",
+    "path": [
+      "mr"
+    ],
+    "before": -6,
+    "after": -4
+  },
+  {
+    "kind": "item",
+    "name": "Scylla Shell",
+    "path": [
+      "maxMana"
+    ],
+    "before": 31,
+    "after": 26
+  },
+  {
+    "kind": "item",
+    "name": "Scylla Shell",
+    "path": [
+      "mdPct"
+    ],
+    "before": 20,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Oni Helm",
+    "path": [
+      "maxMana"
+    ],
+    "before": 50,
+    "after": 27
+  },
+  {
+    "kind": "item",
+    "name": "Pendulum",
+    "path": [
+      "maxMana"
+    ],
+    "before": -15,
+    "after": -11
+  },
+  {
+    "kind": "item",
+    "name": "Hubris",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -13
+  },
+  {
+    "kind": "item",
+    "name": "Insomniac",
+    "path": [
+      "maxMana"
+    ],
+    "before": -13,
+    "after": -8
+  },
+  {
+    "kind": "item",
+    "name": "Arctic Touch",
+    "path": [
+      "maxMana"
+    ],
+    "before": -30,
+    "after": -20
+  },
+  {
+    "kind": "item",
+    "name": "Hypoxia",
+    "path": [
+      "maxMana"
+    ],
+    "before": 14,
+    "after": 10
+  },
+  {
+    "kind": "item",
+    "name": "Supercharge",
+    "path": [
+      "maxMana"
+    ],
+    "before": -14,
+    "after": -12
+  },
+  {
+    "kind": "item",
+    "name": "Reminder",
+    "path": [
+      "mr"
+    ],
+    "before": 1,
+    "after": 4
+  },
+  {
+    "kind": "item",
+    "name": "Reminder",
+    "path": [
+      "maxMana"
+    ],
+    "before": 23,
+    "after": 16
+  },
+  {
+    "kind": "item",
+    "name": "Valence",
+    "path": [
+      "maxMana"
+    ],
+    "before": -15,
+    "after": -7
+  },
+  {
+    "kind": "item",
+    "name": "Valence",
+    "path": [
+      "spPct2"
+    ],
+    "before": -14,
+    "after": -31
+  },
+  {
+    "kind": "item",
+    "name": "Gnir",
+    "path": [
+      "maxMana"
+    ],
+    "before": 14,
+    "after": 12
+  },
+  {
+    "kind": "item",
+    "name": "Diminuendo",
+    "path": [
+      "maxMana"
+    ],
+    "before": 25,
+    "after": 14
+  },
+  {
+    "kind": "item",
+    "name": "Abyssal Amulet",
+    "path": [
+      "maxMana"
+    ],
+    "before": -14,
+    "after": -10
+  },
+  {
+    "kind": "item",
+    "name": "Cold Front",
+    "path": [
+      "maxMana"
+    ],
+    "before": -11,
+    "after": -7
+  },
+  {
+    "kind": "item",
+    "name": "Solvent",
+    "path": [
+      "maxMana"
+    ],
+    "before": 10,
+    "after": 8
+  },
+  {
+    "kind": "item",
+    "name": "Rusted Ring",
+    "path": [
+      "wDefPct"
+    ],
+    "before": 4,
+    "after": 7
+  },
+  {
+    "kind": "item",
+    "name": "Rusted Ring",
+    "path": [
+      "maxMana"
+    ],
+    "before": 10,
+    "after": 7
+  },
+  {
+    "kind": "item",
+    "name": "Lake",
+    "path": [
+      "maxMana"
+    ],
+    "before": 9,
+    "after": 6
+  },
+  {
+    "kind": "item",
+    "name": "Hex-Master Anchor",
+    "path": [
+      "maxMana"
+    ],
+    "before": 11,
+    "after": 9
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ritual Catalyst",
+    "path": [
+      "itemIDs",
+      "intReq"
+    ],
+    "before": 55,
+    "after": 40
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ritual Catalyst",
+    "path": [
+      "itemIDs",
+      "strReq"
+    ],
+    "before": -55,
+    "after": -15
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ritual Catalyst",
+    "path": [
+      "itemIDs",
+      "dura"
+    ],
+    "before": -149,
+    "after": -135
+  },
+  {
+    "kind": "ingredient",
+    "name": "Wings Armour Fragment",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": 500,
+      "maximum": 600
+    },
+    "after": {
+      "minimum": 350,
+      "maximum": 425
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Mega Fern",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": 375,
+      "maximum": 425
+    },
+    "after": {
+      "minimum": 325,
+      "maximum": 375
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Adamastor's Faceplate",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": 725,
+      "maximum": 875
+    },
+    "after": {
+      "minimum": 625,
+      "maximum": 750
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Dizzying Void",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": -1350,
+      "maximum": -1150
+    },
+    "after": {
+      "minimum": -1200,
+      "maximum": -1000
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Rayscorched Plating",
+    "path": [
+      "ids",
+      "spPct2"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 4
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 10
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Rayscorched Plating",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 6,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 5,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Green Foot",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 6
+    },
+    "after": {
+      "minimum": 4,
+      "maximum": 5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Green Foot",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": 500,
+      "maximum": 550
+    },
+    "after": {
+      "minimum": 350,
+      "maximum": 400
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Disturbed Aspect",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": -475,
+      "maximum": -475
+    },
+    "after": {
+      "minimum": -600,
+      "maximum": -600
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Quick Claw",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": -5,
+      "maximum": -4
+    },
+    "after": {
+      "minimum": -9,
+      "maximum": -7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Quick Claw",
+    "path": [
+      "ids",
+      "dex"
+    ],
+    "before": {
+      "minimum": 6,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 7,
+      "maximum": 9
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Quick Claw",
+    "path": [
+      "itemIDs",
+      "strReq"
+    ],
+    "before": 0,
+    "after": -15
+  },
+  {
+    "kind": "ingredient",
+    "name": "Exquisite Marsh Scale",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 11
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Rocky Mind",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 10,
+      "maximum": 11
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cavitated Bone",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": -6,
+      "maximum": -5
+    },
+    "after": {
+      "minimum": -5,
+      "maximum": -4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cavitated Bone",
+    "path": [
+      "ids",
+      "dex"
+    ],
+    "before": {
+      "minimum": -7,
+      "maximum": -4
+    },
+    "after": {
+      "minimum": -5,
+      "maximum": -4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Hellish Cinders",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 6
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Hellish Cinders",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 7
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Fiberglass Frame",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 9,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Acidulous Plating",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 6,
+      "maximum": 7
+    },
+    "after": {
+      "minimum": 4,
+      "maximum": 5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Gunkfueled Core",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 6,
+      "maximum": 9
+    },
+    "after": {
+      "minimum": 5,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Gunkfueled Core",
+    "path": [
+      "ids",
+      "hprRaw"
+    ],
+    "before": {
+      "minimum": -210,
+      "maximum": -182
+    },
+    "after": {
+      "minimum": -180,
+      "maximum": -150
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ironwood Scale",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 7
+    },
+    "after": {
+      "minimum": 4,
+      "maximum": 6
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cursed Wings",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 16,
+      "maximum": 18
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cursed Wings",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 16,
+      "maximum": 20
+    },
+    "after": {
+      "minimum": 16,
+      "maximum": 19
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cursed Wings",
+    "path": [
+      "ids",
+      "hpBonus"
+    ],
+    "before": {
+      "minimum": -650,
+      "maximum": -500
+    },
+    "after": {
+      "minimum": -800,
+      "maximum": -650
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Silver Bullet",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Blueshift Beacon",
+    "path": [
+      "ids",
+      "damPct"
+    ],
+    "before": {
+      "minimum": 21,
+      "maximum": 21
+    },
+    "after": {
+      "minimum": 19,
+      "maximum": 19
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Deep Ice Core",
+    "path": [
+      "ids",
+      "wDamPct"
+    ],
+    "before": {
+      "minimum": 12,
+      "maximum": 13
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 9
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Enhanced Behaviour Microchip",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 7,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 5,
+      "maximum": 6
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Enhanced Potential Microchip",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 7,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ostentatious Cape",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 6
+    },
+    "after": {
+      "minimum": 5,
+      "maximum": 5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ostentatious Cape",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 7,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Flesh-forged Circuit",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 6
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Cerulean Rectrix",
+    "path": [
+      "ids",
+      "aDamPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 11
+    },
+    "after": {
+      "minimum": 12,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Psionic Quill",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 11
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Psionic Quill",
+    "path": [
+      "ids",
+      "spd"
+    ],
+    "before": {
+      "minimum": 5,
+      "maximum": 6
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Antler Fragment",
+    "path": [
+      "itemIDs",
+      "dexReq"
+    ],
+    "before": 30,
+    "after": 25
+  },
+  {
+    "kind": "ingredient",
+    "name": "Antler Fragment",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 10,
+      "maximum": 12
+    },
+    "after": {
+      "minimum": 12,
+      "maximum": 14
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Antler Fragment",
+    "path": [
+      "ids",
+      "spd"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 0,
+      "maximum": 0
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Radiant Seeds",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 6,
+      "maximum": 9
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 10
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ocea Steel",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ocea Steel",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ocea Steel",
+    "path": [
+      "ids",
+      "wDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ocea Steel",
+    "path": [
+      "ids",
+      "fDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ocea Steel",
+    "path": [
+      "ids",
+      "aDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 15
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Extremophile Pelt",
+    "path": [
+      "ids",
+      "rDamPct"
+    ],
+    "before": {
+      "minimum": 11,
+      "maximum": 14
+    },
+    "after": {
+      "minimum": 11,
+      "maximum": 13
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Malignant Nuclei",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 12,
+      "maximum": 15
+    },
+    "after": {
+      "minimum": 12,
+      "maximum": 14
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Tattered Magic Cloth",
+    "path": [
+      "ids",
+      "fSdPct"
+    ],
+    "before": {
+      "minimum": 7,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Urdar's Stone",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 15,
+      "maximum": 17
+    },
+    "after": {
+      "minimum": 15,
+      "maximum": 16
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Void Particulates",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 11,
+      "maximum": 11
+    },
+    "after": {
+      "minimum": 12,
+      "maximum": 12
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Glowing Tree Sap",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Tempered Core",
+    "path": [
+      "ids",
+      "fDamPct"
+    ],
+    "before": {
+      "minimum": 16,
+      "maximum": 20
+    },
+    "after": {
+      "minimum": 14,
+      "maximum": 17
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Soulfire Matterweave",
+    "path": [
+      "ids",
+      "fDamPct"
+    ],
+    "before": {
+      "minimum": 14,
+      "maximum": 15
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 14
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Galvanic Stone",
+    "path": [
+      "ids",
+      "fDamPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 10
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Galvanic Stone",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Calcified Ligament",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Atmospheric Aspect",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": 40,
+      "maximum": 40
+    },
+    "after": {
+      "minimum": 20,
+      "maximum": 20
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Defective Circuits",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": 40,
+      "maximum": 45
+    },
+    "after": {
+      "minimum": 30,
+      "maximum": 35
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Disturbed Dye",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": 85,
+      "maximum": 90
+    },
+    "after": {
+      "minimum": 70,
+      "maximum": 75
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Optic Lens",
+    "path": [
+      "ids",
+      "wDamRaw"
+    ],
+    "before": {
+      "minimum": 20,
+      "maximum": 25
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 18
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Optic Lens",
+    "path": [
+      "ids",
+      "aDamRaw"
+    ],
+    "before": {
+      "minimum": 20,
+      "maximum": 25
+    },
+    "after": {
+      "minimum": 13,
+      "maximum": 18
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Crystalline Growth",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": 50,
+      "maximum": 55
+    },
+    "after": {
+      "minimum": 40,
+      "maximum": 45
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Flerisi Bark",
+    "path": [
+      "ids",
+      "eSdRaw"
+    ],
+    "before": {
+      "minimum": 50,
+      "maximum": 55
+    },
+    "after": {
+      "minimum": 40,
+      "maximum": 45
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Dogun Alert Sigil",
+    "path": [
+      "ids",
+      "fSdRaw"
+    ],
+    "before": {
+      "minimum": 50,
+      "maximum": 55
+    },
+    "after": {
+      "minimum": 40,
+      "maximum": 45
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Ashstained Basalt",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": -55,
+      "maximum": -55
+    },
+    "after": {
+      "minimum": -40,
+      "maximum": -40
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Remnant of the Ruined",
+    "path": [
+      "ids",
+      "mr"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 3
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Moonlight Essence",
+    "path": [
+      "ids",
+      "mr"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 3
+    },
+    "after": {
+      "minimum": 2,
+      "maximum": 3
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Moonlight Essence",
+    "path": [
+      "ids",
+      "ms"
+    ],
+    "before": {
+      "minimum": -3,
+      "maximum": -3
+    },
+    "after": {
+      "minimum": -3,
+      "maximum": -2
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Jewel of Sin",
+    "path": [
+      "ids",
+      "ms"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 4
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 3
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Condensed Darkness",
+    "path": [
+      "ids",
+      "ms"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "after": {
+      "minimum": 3,
+      "maximum": 3
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Condensed Darkness",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": -32,
+      "maximum": -28
+    },
+    "after": {
+      "minimum": -25,
+      "maximum": -20
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Peacock Plume",
+    "path": [
+      "ids",
+      "mr"
+    ],
+    "before": {
+      "minimum": 7,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Unsettling Void",
+    "path": [
+      "ids",
+      "mr"
+    ],
+    "before": {
+      "minimum": -6,
+      "maximum": -5
+    },
+    "after": {
+      "minimum": -5,
+      "maximum": -5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "7-Yottabyte Storage Component",
+    "path": [
+      "itemIDs",
+      "dexReq"
+    ],
+    "before": -12,
+    "after": -17
+  },
+  {
+    "kind": "ingredient",
+    "name": "7-Yottabyte Storage Component",
+    "path": [
+      "itemIDs",
+      "defReq"
+    ],
+    "before": -12,
+    "after": -17
+  },
+  {
+    "kind": "ingredient",
+    "name": "7-Yottabyte Storage Component",
+    "path": [
+      "itemIDs",
+      "agiReq"
+    ],
+    "before": -12,
+    "after": -17
+  },
+  {
+    "kind": "ingredient",
+    "name": "Engored Oculus",
+    "path": [
+      "ids",
+      "spd"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 11
+    },
+    "after": {
+      "minimum": 7,
+      "maximum": 9
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Engored Oculus",
+    "path": [
+      "ids",
+      "ls"
+    ],
+    "before": {
+      "minimum": 140,
+      "maximum": 200
+    },
+    "after": {
+      "minimum": 160,
+      "maximum": 225
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Accursed Effigy",
+    "path": [
+      "ids",
+      "spd"
+    ],
+    "before": {
+      "minimum": -10,
+      "maximum": -7
+    },
+    "after": {
+      "minimum": -8,
+      "maximum": -5
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Incremental Mapping Module",
+    "path": [
+      "itemIDs",
+      "agiReq"
+    ],
+    "before": 40,
+    "after": 30
+  },
+  {
+    "kind": "ingredient",
+    "name": "Flameheart",
+    "path": [
+      "ids",
+      "hprRaw"
+    ],
+    "before": {
+      "minimum": 91,
+      "maximum": 112
+    },
+    "after": {
+      "minimum": 100,
+      "maximum": 120
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Braveheart",
+    "path": [
+      "ids",
+      "hprPct"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 4,
+      "maximum": 6
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Braveheart",
+    "path": [
+      "ids",
+      "hprRaw"
+    ],
+    "before": {
+      "minimum": 70,
+      "maximum": 77
+    },
+    "after": {
+      "minimum": 80,
+      "maximum": 90
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Hardened Icicle",
+    "path": [
+      "ids",
+      "wDamRaw"
+    ],
+    "before": {
+      "minimum": 80,
+      "maximum": 90
+    },
+    "after": {
+      "minimum": 55,
+      "maximum": 70
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Hardened Icicle",
+    "path": [
+      "ids",
+      "maxMana"
+    ],
+    "before": {
+      "minimum": 0,
+      "maximum": 0
+    },
+    "after": {
+      "minimum": 12,
+      "maximum": 14
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Gravitation Crystal",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 15,
+      "maximum": 17
+    },
+    "after": {
+      "minimum": 10,
+      "maximum": 12
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Granite Maul",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": 2,
+      "maximum": 3
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Linear Accelerator",
+    "path": [
+      "ids",
+      "sdRaw"
+    ],
+    "before": {
+      "minimum": 55,
+      "maximum": 80
+    },
+    "after": {
+      "minimum": 45,
+      "maximum": 65
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Linear Accelerator",
+    "path": [
+      "ids",
+      "tDamPct"
+    ],
+    "before": {
+      "minimum": 12,
+      "maximum": 16
+    },
+    "after": {
+      "minimum": 10,
+      "maximum": 14
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Wintery Aspect",
+    "path": [
+      "ids",
+      "sdPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 8
+    },
+    "after": {
+      "minimum": 4,
+      "maximum": 4
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Splintered Greathammer",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 10,
+      "maximum": 12
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 10
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Splintered Greathammer",
+    "path": [
+      "ids",
+      "str"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 5,
+      "maximum": 7
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Mountain's Heart",
+    "path": [
+      "ids",
+      "eDamPct"
+    ],
+    "before": {
+      "minimum": 10,
+      "maximum": 13
+    },
+    "after": {
+      "minimum": 8,
+      "maximum": 11
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Dernic Hydroid",
+    "path": [
+      "ids",
+      "wDamPct"
+    ],
+    "before": {
+      "minimum": 8,
+      "maximum": 10
+    },
+    "after": {
+      "minimum": 6,
+      "maximum": 8
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Dernic Hydroid",
+    "path": [
+      "ids",
+      "wSdRaw"
+    ],
+    "before": {
+      "minimum": 45,
+      "maximum": 55
+    },
+    "after": {
+      "minimum": 40,
+      "maximum": 45
+    }
+  },
+  {
+    "kind": "ingredient",
+    "name": "Claw of Demise",
+    "path": [
+      "ids",
+      "def"
+    ],
+    "before": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "after": {
+      "minimum": -5,
+      "maximum": -3
+    }
+  }
+]

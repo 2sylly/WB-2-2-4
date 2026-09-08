@@ -188,7 +188,7 @@
     "ids": {
       "ms": {
         "minimum": 3,
-        "maximum": 4
+        "maximum": 3
       },
       "hpBonus": {
         "minimum": -300,
@@ -419,12 +419,12 @@
         "maximum": 1275
       },
       "def": {
-        "minimum": 6,
-        "maximum": 8
+        "minimum": 5,
+        "maximum": 7
       },
       "spPct2": {
-        "minimum": 3,
-        "maximum": 4
+        "minimum": 8,
+        "maximum": 10
       }
     },
     "consumableIDs": {
@@ -708,8 +708,8 @@
     ],
     "ids": {
       "aDamPct": {
-        "minimum": 8,
-        "maximum": 11
+        "minimum": 12,
+        "maximum": 15
       },
       "spd": {
         "minimum": 12,
@@ -1250,12 +1250,12 @@
         "maximum": 8
       },
       "str": {
-        "minimum": -5,
-        "maximum": -4
+        "minimum": -9,
+        "maximum": -7
       },
       "dex": {
-        "minimum": 6,
-        "maximum": 8
+        "minimum": 7,
+        "maximum": 9
       }
     },
     "consumableIDs": {
@@ -1272,7 +1272,7 @@
     },
     "itemIDs": {
       "dura": -120,
-      "strReq": 0,
+      "strReq": -15,
       "dexReq": 15,
       "intReq": 0,
       "defReq": 0,
@@ -2963,11 +2963,11 @@
       },
       "str": {
         "minimum": 5,
-        "maximum": 6
+        "maximum": 5
       },
       "sdPct": {
-        "minimum": 8,
-        "maximum": 10
+        "minimum": 7,
+        "maximum": 8
       }
     },
     "consumableIDs": {
@@ -3754,8 +3754,12 @@
         "maximum": -5
       },
       "wDamRaw": {
-        "minimum": 80,
-        "maximum": 90
+        "minimum": 55,
+        "maximum": 70
+      },
+      "maxMana": {
+        "minimum": 12,
+        "maximum": 14
       }
     },
     "consumableIDs": {
@@ -4043,8 +4047,8 @@
     ],
     "ids": {
       "mr": {
-        "minimum": 7,
-        "maximum": 10
+        "minimum": 6,
+        "maximum": 8
       },
       "aDefPct": {
         "minimum": 5,
@@ -6682,8 +6686,8 @@
         "maximum": 16
       },
       "str": {
-        "minimum": 4,
-        "maximum": 5
+        "minimum": 2,
+        "maximum": 3
       }
     },
     "consumableIDs": {
@@ -7449,12 +7453,12 @@
     ],
     "ids": {
       "mr": {
-        "minimum": 3,
+        "minimum": 2,
         "maximum": 3
       },
       "ms": {
         "minimum": -3,
-        "maximum": -3
+        "maximum": -2
       },
       "sdPct": {
         "minimum": 1,
@@ -11599,8 +11603,8 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": 500,
-        "maximum": 600
+        "minimum": 350,
+        "maximum": 425
       },
       "sdPct": {
         "minimum": 5,
@@ -12121,8 +12125,8 @@
     ],
     "ids": {
       "str": {
-        "minimum": 8,
-        "maximum": 11
+        "minimum": 6,
+        "maximum": 7
       },
       "healPct": {
         "minimum": -5,
@@ -14585,8 +14589,8 @@
     ],
     "ids": {
       "damPct": {
-        "minimum": 21,
-        "maximum": 21
+        "minimum": 19,
+        "maximum": 19
       },
       "hpBonus": {
         "minimum": -1500,
@@ -14822,8 +14826,8 @@
     ],
     "ids": {
       "sdRaw": {
-        "minimum": 85,
-        "maximum": 90
+        "minimum": 70,
+        "maximum": 75
       }
     },
     "consumableIDs": {
@@ -14871,8 +14875,8 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": -1350,
-        "maximum": -1150
+        "minimum": -1200,
+        "maximum": -1000
       }
     },
     "consumableIDs": {
@@ -15499,7 +15503,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -15636,7 +15640,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -15819,7 +15823,7 @@
     },
     "droppedBy": [
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -15912,7 +15916,7 @@
     "ids": {
       "eDamPct": {
         "minimum": 12,
-        "maximum": 15
+        "maximum": 14
       },
       "eDefPct": {
         "minimum": -15,
@@ -16711,7 +16715,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -16925,7 +16929,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -17143,7 +17147,7 @@
     ],
     "ids": {
       "mr": {
-        "minimum": -6,
+        "minimum": -5,
         "maximum": -5
       },
       "sdRaw": {
@@ -17262,8 +17266,8 @@
         "maximum": 7
       },
       "def": {
-        "minimum": 6,
-        "maximum": 7
+        "minimum": 4,
+        "maximum": 5
       },
       "hprRaw": {
         "minimum": -84,
@@ -17335,11 +17339,11 @@
         "maximum": 8
       },
       "str": {
-        "minimum": -6,
-        "maximum": -5
+        "minimum": -5,
+        "maximum": -4
       },
       "dex": {
-        "minimum": -7,
+        "minimum": -5,
         "maximum": -4
       }
     },
@@ -17472,12 +17476,12 @@
         "maximum": -5
       },
       "wDamPct": {
-        "minimum": 8,
-        "maximum": 10
+        "minimum": 6,
+        "maximum": 8
       },
       "wSdRaw": {
-        "minimum": 45,
-        "maximum": 55
+        "minimum": 40,
+        "maximum": 45
       }
     },
     "consumableIDs": {
@@ -17604,7 +17608,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -17635,7 +17639,7 @@
     "ids": {
       "rDamPct": {
         "minimum": 11,
-        "maximum": 14
+        "maximum": 13
       },
       "rDefPct": {
         "minimum": -14,
@@ -18482,7 +18486,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -18829,16 +18833,16 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": 500,
-        "maximum": 550
+        "minimum": 350,
+        "maximum": 400
       },
       "spd": {
         "minimum": -8,
         "maximum": -6
       },
       "def": {
-        "minimum": 5,
-        "maximum": 6
+        "minimum": 4,
+        "maximum": 5
       }
     },
     "consumableIDs": {
@@ -18915,12 +18919,12 @@
         "maximum": 15
       },
       "str": {
-        "minimum": 6,
-        "maximum": 9
+        "minimum": 5,
+        "maximum": 7
       },
       "hprRaw": {
-        "minimum": -210,
-        "maximum": -182
+        "minimum": -180,
+        "maximum": -150
       }
     },
     "consumableIDs": {
@@ -19044,7 +19048,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -19662,15 +19666,15 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
     "id": 155
   },
   {
-    "displayName": "Toxxulous Ripper\u2019s Legs",
-    "name": "Toxxulous Ripper\u2019s Legs",
+    "displayName": "Toxxulous Ripper’s Legs",
+    "name": "Toxxulous Ripper’s Legs",
     "type": "ingredient",
     "icon": {
       "value": {
@@ -19753,7 +19757,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -19901,7 +19905,7 @@
         "coords": null
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -20010,7 +20014,7 @@
       },
       "sdPct": {
         "minimum": 3,
-        "maximum": 5
+        "maximum": 4
       }
     },
     "consumableIDs": {
@@ -20102,16 +20106,16 @@
     ],
     "ids": {
       "ms": {
-        "minimum": 4,
-        "maximum": 4
+        "minimum": 3,
+        "maximum": 3
       },
       "hpBonus": {
         "minimum": -260,
         "maximum": -240
       },
       "sdRaw": {
-        "minimum": -32,
-        "maximum": -28
+        "minimum": -25,
+        "maximum": -20
       }
     },
     "consumableIDs": {
@@ -20190,7 +20194,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -20323,8 +20327,8 @@
     ],
     "ids": {
       "mr": {
-        "minimum": 4,
-        "maximum": 4
+        "minimum": 3,
+        "maximum": 3
       },
       "str": {
         "minimum": 2,
@@ -21122,8 +21126,8 @@
         "maximum": -2
       },
       "sdPct": {
-        "minimum": 11,
-        "maximum": 11
+        "minimum": 12,
+        "maximum": 12
       },
       "dex": {
         "minimum": -2,
@@ -21258,8 +21262,8 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": 725,
-        "maximum": 875
+        "minimum": 625,
+        "maximum": 750
       },
       "aDefPct": {
         "minimum": 25,
@@ -21561,8 +21565,8 @@
         "maximum": 26
       },
       "def": {
-        "minimum": 3,
-        "maximum": 5
+        "minimum": -5,
+        "maximum": -3
       },
       "hprPct": {
         "minimum": -20,
@@ -21662,7 +21666,7 @@
         "coords": null
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -21844,16 +21848,16 @@
         "maximum": -16
       },
       "maxMana": {
-        "minimum": 8,
-        "maximum": 12
+        "minimum": 6,
+        "maximum": 10
       },
       "sdPct": {
         "minimum": 4,
         "maximum": 5
       },
       "wDamPct": {
-        "minimum": 12,
-        "maximum": 13
+        "minimum": 8,
+        "maximum": 9
       }
     },
     "consumableIDs": {
@@ -21936,8 +21940,8 @@
         "maximum": 112
       },
       "fSdRaw": {
-        "minimum": 50,
-        "maximum": 55
+        "minimum": 40,
+        "maximum": 45
       }
     },
     "consumableIDs": {
@@ -21979,12 +21983,12 @@
     ],
     "ids": {
       "ls": {
-        "minimum": 140,
-        "maximum": 200
+        "minimum": 160,
+        "maximum": 225
       },
       "spd": {
-        "minimum": 8,
-        "maximum": 11
+        "minimum": 7,
+        "maximum": 9
       },
       "hprPct": {
         "minimum": -24,
@@ -22313,16 +22317,17 @@
     "lvl": 100,
     "skills": [
       "ARMOURING",
-      "SCRIBING"
+      "SCRIBING",
+      "TAILORING"
     ],
     "ids": {
       "spd": {
-        "minimum": 5,
-        "maximum": 6
+        "minimum": 3,
+        "maximum": 4
       },
       "tDamPct": {
-        "minimum": 5,
-        "maximum": 8
+        "minimum": 8,
+        "maximum": 11
       }
     },
     "consumableIDs": {
@@ -22620,7 +22625,7 @@
     "ids": {
       "eDamPct": {
         "minimum": 15,
-        "maximum": 17
+        "maximum": 16
       },
       "fDefPct": {
         "minimum": -24,
@@ -22962,16 +22967,16 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": -650,
-        "maximum": -500
+        "minimum": -800,
+        "maximum": -650
       },
       "eDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 16,
+        "maximum": 18
       },
       "tDamPct": {
         "minimum": 16,
-        "maximum": 20
+        "maximum": 19
       }
     },
     "consumableIDs": {
@@ -25346,24 +25351,24 @@
     ],
     "ids": {
       "aDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 13,
+        "maximum": 15
       },
       "fDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 13,
+        "maximum": 15
       },
       "eDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 13,
+        "maximum": 15
       },
       "wDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 13,
+        "maximum": 15
       },
       "tDamPct": {
-        "minimum": 14,
-        "maximum": 16
+        "minimum": 13,
+        "maximum": 15
       }
     },
     "consumableIDs": {
@@ -26486,7 +26491,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -26581,8 +26586,8 @@
     ],
     "ids": {
       "fDamPct": {
-        "minimum": 14,
-        "maximum": 15
+        "minimum": 13,
+        "maximum": 14
       },
       "gXp": {
         "minimum": 4,
@@ -26721,7 +26726,7 @@
         ]
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -28279,8 +28284,8 @@
     ],
     "ids": {
       "sdPct": {
-        "minimum": 15,
-        "maximum": 17
+        "minimum": 10,
+        "maximum": 12
       },
       "atkTier": {
         "minimum": -1,
@@ -28349,12 +28354,12 @@
         "maximum": -780
       },
       "tDamPct": {
-        "minimum": 12,
-        "maximum": 16
+        "minimum": 10,
+        "maximum": 14
       },
       "sdRaw": {
-        "minimum": 55,
-        "maximum": 80
+        "minimum": 45,
+        "maximum": 65
       }
     },
     "consumableIDs": {
@@ -29464,8 +29469,8 @@
     ],
     "ids": {
       "tDamPct": {
-        "minimum": 4,
-        "maximum": 5
+        "minimum": 3,
+        "maximum": 4
       },
       "mdRaw": {
         "minimum": 25,
@@ -29749,8 +29754,8 @@
     ],
     "ids": {
       "sdRaw": {
-        "minimum": -55,
-        "maximum": -55
+        "minimum": -40,
+        "maximum": -40
       },
       "mdRaw": {
         "minimum": -70,
@@ -31007,8 +31012,8 @@
         "maximum": 4
       },
       "eSdRaw": {
-        "minimum": 50,
-        "maximum": 55
+        "minimum": 40,
+        "maximum": 45
       }
     },
     "consumableIDs": {
@@ -32222,8 +32227,8 @@
         "maximum": -500
       },
       "fDamPct": {
-        "minimum": 16,
-        "maximum": 20
+        "minimum": 14,
+        "maximum": 17
       }
     },
     "consumableIDs": {
@@ -34284,10 +34289,10 @@
     "itemIDs": {
       "dura": -98,
       "strReq": 0,
-      "dexReq": -12,
+      "dexReq": -17,
       "intReq": 0,
-      "defReq": -12,
-      "agiReq": -12
+      "defReq": -17,
+      "agiReq": -17
     },
     "droppedBy": [
       {
@@ -34613,8 +34618,8 @@
         "maximum": 6
       },
       "sdPct": {
-        "minimum": 7,
-        "maximum": 8
+        "minimum": 5,
+        "maximum": 6
       }
     },
     "consumableIDs": {
@@ -35232,8 +35237,8 @@
     ],
     "ids": {
       "sdPct": {
-        "minimum": 8,
-        "maximum": 8
+        "minimum": 7,
+        "maximum": 7
       },
       "mdPct": {
         "minimum": 10,
@@ -35318,8 +35323,8 @@
     ],
     "ids": {
       "def": {
-        "minimum": 9,
-        "maximum": 10
+        "minimum": 6,
+        "maximum": 7
       },
       "fDefPct": {
         "minimum": 10,
@@ -35559,7 +35564,7 @@
       "dexReq": 0,
       "intReq": 0,
       "defReq": 0,
-      "agiReq": 40
+      "agiReq": 30
     },
     "droppedBy": [
       {
@@ -35745,12 +35750,12 @@
     ],
     "ids": {
       "aDamRaw": {
-        "minimum": 20,
-        "maximum": 25
+        "minimum": 13,
+        "maximum": 18
       },
       "wDamRaw": {
-        "minimum": 20,
-        "maximum": 25
+        "minimum": 13,
+        "maximum": 18
       }
     },
     "consumableIDs": {
@@ -39037,8 +39042,8 @@
     "id": 626
   },
   {
-    "displayName": "Panda King\u2019s Crown",
-    "name": "Panda King\u2019s Crown",
+    "displayName": "Panda King’s Crown",
+    "name": "Panda King’s Crown",
     "type": "ingredient",
     "icon": {
       "value": {
@@ -40010,8 +40015,8 @@
         "maximum": -10
       },
       "str": {
-        "minimum": 10,
-        "maximum": 11
+        "minimum": 8,
+        "maximum": 8
       }
     },
     "consumableIDs": {
@@ -40184,16 +40189,16 @@
     ],
     "ids": {
       "spd": {
-        "minimum": 3,
-        "maximum": 5
+        "minimum": 0,
+        "maximum": 0
       },
       "dex": {
         "minimum": 3,
         "maximum": 5
       },
       "tDamPct": {
-        "minimum": 10,
-        "maximum": 12
+        "minimum": 12,
+        "maximum": 14
       }
     },
     "consumableIDs": {
@@ -40211,7 +40216,7 @@
     "itemIDs": {
       "dura": -130,
       "strReq": 0,
-      "dexReq": 30,
+      "dexReq": 25,
       "intReq": 0,
       "defReq": 0,
       "agiReq": 0
@@ -40791,8 +40796,8 @@
         "maximum": 6
       },
       "sdRaw": {
-        "minimum": 50,
-        "maximum": 55
+        "minimum": 40,
+        "maximum": 45
       }
     },
     "consumableIDs": {
@@ -41432,8 +41437,8 @@
         "maximum": 6
       },
       "eDamPct": {
-        "minimum": 10,
-        "maximum": 13
+        "minimum": 8,
+        "maximum": 11
       }
     },
     "consumableIDs": {
@@ -41717,12 +41722,12 @@
         "maximum": -6
       },
       "eDamPct": {
-        "minimum": 10,
-        "maximum": 12
-      },
-      "str": {
         "minimum": 8,
         "maximum": 10
+      },
+      "str": {
+        "minimum": 5,
+        "maximum": 7
       }
     },
     "consumableIDs": {
@@ -43167,8 +43172,8 @@
         "maximum": 4
       },
       "sdRaw": {
-        "minimum": 40,
-        "maximum": 45
+        "minimum": 30,
+        "maximum": 35
       }
     },
     "consumableIDs": {
@@ -46175,8 +46180,8 @@
         "maximum": 680
       },
       "hprRaw": {
-        "minimum": 91,
-        "maximum": 112
+        "minimum": 100,
+        "maximum": 120
       }
     },
     "consumableIDs": {
@@ -49261,8 +49266,8 @@
     ],
     "ids": {
       "hpBonus": {
-        "minimum": 375,
-        "maximum": 425
+        "minimum": 325,
+        "maximum": 375
       },
       "hprRaw": {
         "minimum": 84,
@@ -55090,7 +55095,7 @@
     },
     "droppedBy": [
       {
-        "name": "\u00a7kTaga Soihf A Lin",
+        "name": "§kTaga Soihf A Lin",
         "coords": [
           [
             -510,
@@ -55268,21 +55273,21 @@
       "TAILORING"
     ],
     "ids": {
-      "damPct": {
-        "minimum": 10,
-        "maximum": 12
-      },
       "ms": {
         "minimum": 8,
         "maximum": 8
       },
-      "atkTier": {
-        "minimum": -1,
-        "maximum": -1
+      "sdPct": {
+        "minimum": 6,
+        "maximum": 6
       },
-      "eSdPct": {
-        "minimum": -10,
-        "maximum": -8
+      "ls": {
+        "minimum": -100,
+        "maximum": -100
+      },
+      "mdPct": {
+        "minimum": -12,
+        "maximum": -12
       }
     },
     "consumableIDs": {
@@ -55298,10 +55303,10 @@
       "notTouching": 0
     },
     "itemIDs": {
-      "dura": -149,
-      "strReq": -55,
+      "dura": -135,
+      "strReq": -15,
       "dexReq": 0,
-      "intReq": 55,
+      "intReq": 40,
       "defReq": 0,
       "agiReq": 0
     },
@@ -55704,11 +55709,11 @@
     "ids": {
       "hprPct": {
         "minimum": 4,
-        "maximum": 5
+        "maximum": 6
       },
       "hprRaw": {
-        "minimum": 70,
-        "maximum": 77
+        "minimum": 80,
+        "maximum": 90
       }
     },
     "consumableIDs": {
@@ -57054,8 +57059,8 @@
         "maximum": 4
       },
       "hpBonus": {
-        "minimum": -475,
-        "maximum": -475
+        "minimum": -600,
+        "maximum": -600
       },
       "eDamPct": {
         "minimum": 8,
@@ -58417,8 +58422,8 @@
         "maximum": 4
       },
       "spd": {
-        "minimum": -10,
-        "maximum": -7
+        "minimum": -8,
+        "maximum": -5
       },
       "fDamPct": {
         "minimum": 8,
@@ -59149,8 +59154,8 @@
     "id": 687
   },
   {
-    "displayName": "Royal Bug\u2019s Blood",
-    "name": "Royal Bug\u2019s Blood",
+    "displayName": "Royal Bug’s Blood",
+    "name": "Royal Bug’s Blood",
     "type": "ingredient",
     "icon": {
       "value": {
@@ -60638,8 +60643,8 @@
         "maximum": 8
       },
       "sdRaw": {
-        "minimum": 40,
-        "maximum": 40
+        "minimum": 20,
+        "maximum": 20
       },
       "mdPct": {
         "minimum": -12,
@@ -62118,8 +62123,8 @@
         "maximum": -6
       },
       "sdPct": {
-        "minimum": 8,
-        "maximum": 8
+        "minimum": 4,
+        "maximum": 4
       },
       "wDamPct": {
         "minimum": 8,
@@ -62690,8 +62695,8 @@
     ],
     "ids": {
       "tDamPct": {
-        "minimum": 6,
-        "maximum": 9
+        "minimum": 8,
+        "maximum": 10
       },
       "gXp": {
         "minimum": 3,
@@ -64418,7 +64423,7 @@
         "coords": false
       },
       {
-        "name": "\u00a7Fool Eater",
+        "name": "§Fool Eater",
         "coords": null
       }
     ],
@@ -69806,7 +69811,7 @@
         ]
       },
       {
-        "name": "\u00a7eAlraune On Fire",
+        "name": "§eAlraune On Fire",
         "coords": [
           -1326,
           43,
@@ -71645,7 +71650,7 @@
         ]
       },
       {
-        "name": "\u00a7eAlraune On Fire",
+        "name": "§eAlraune On Fire",
         "coords": [
           -1326,
           43,
@@ -71723,8 +71728,8 @@
     ],
     "ids": {
       "def": {
-        "minimum": 5,
-        "maximum": 7
+        "minimum": 4,
+        "maximum": 6
       },
       "eDefPct": {
         "minimum": 18,
@@ -74397,12 +74402,12 @@
     ],
     "ids": {
       "def": {
-        "minimum": 5,
-        "maximum": 6
+        "minimum": 3,
+        "maximum": 4
       },
       "sdPct": {
-        "minimum": 4,
-        "maximum": 7
+        "minimum": 3,
+        "maximum": 5
       },
       "wDefPct": {
         "minimum": -35,
@@ -76044,7 +76049,7 @@
     },
     "droppedBy": [
       {
-        "name": "\u00a7bEarth Sprite",
+        "name": "§bEarth Sprite",
         "coords": [
           -1370,
           33,
@@ -76053,7 +76058,7 @@
         ]
       },
       {
-        "name": "\u00a7bLight Sprite",
+        "name": "§bLight Sprite",
         "coords": [
           -1383,
           38,
@@ -76062,7 +76067,7 @@
         ]
       },
       {
-        "name": "\u00a7bWater Sprite",
+        "name": "§bWater Sprite",
         "coords": [
           [
             -1317,
@@ -87257,8 +87262,8 @@
         "maximum": 4
       },
       "fSdPct": {
-        "minimum": 7,
-        "maximum": 8
+        "minimum": 6,
+        "maximum": 7
       }
     },
     "consumableIDs": {
@@ -87430,11 +87435,11 @@
     "ids": {
       "fDamPct": {
         "minimum": 8,
-        "maximum": 12
+        "maximum": 10
       },
       "eDamPct": {
         "minimum": 8,
-        "maximum": 10
+        "maximum": 8
       }
     },
     "consumableIDs": {
@@ -90622,8 +90627,8 @@
         "maximum": 4
       },
       "tDamPct": {
-        "minimum": 4,
-        "maximum": 6
+        "minimum": 6,
+        "maximum": 8
       }
     },
     "consumableIDs": {
@@ -107145,7 +107150,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           1004,
           94,
@@ -107154,7 +107159,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           969,
           87,
@@ -109182,7 +109187,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           1004,
           94,
@@ -109191,7 +109196,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           969,
           87,
@@ -111051,7 +111056,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           1004,
           94,
@@ -111060,7 +111065,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           969,
           87,
@@ -112981,7 +112986,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           1004,
           94,
@@ -112990,7 +112995,7 @@
         ]
       },
       {
-        "name": "\u00a7eLunar Effigy",
+        "name": "§eLunar Effigy",
         "coords": [
           969,
           87,
@@ -118734,7 +118739,7 @@
     },
     "droppedBy": [
       {
-        "name": "Durum Protector \u03b2",
+        "name": "Durum Protector β",
         "coords": null
       }
     ],
@@ -119898,7 +119903,7 @@
     },
     "droppedBy": [
       {
-        "name": "Durum Protector \u03b2",
+        "name": "Durum Protector β",
         "coords": null
       }
     ],
@@ -120874,7 +120879,7 @@
         ]
       },
       {
-        "name": "Durum Protector \u03b2",
+        "name": "Durum Protector β",
         "coords": null
       }
     ],
@@ -126263,8 +126268,8 @@
     ],
     "ids": {
       "tDamPct": {
-        "minimum": 4,
-        "maximum": 5
+        "minimum": 3,
+        "maximum": 4
       },
       "gXp": {
         "minimum": 1,
@@ -131116,8 +131121,8 @@
     "id": 414
   },
   {
-    "displayName": "Old Treasure\u058e",
-    "name": "Old Treasure\u058e",
+    "displayName": "Old Treasure֎",
+    "name": "Old Treasure֎",
     "type": "ingredient",
     "icon": {
       "value": {
@@ -132539,7 +132544,7 @@
         "coords": null
       },
       {
-        "name": "\u00a7Hemorghwood",
+        "name": "§Hemorghwood",
         "coords": null
       },
       {

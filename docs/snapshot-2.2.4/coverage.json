@@ -1,0 +1,44 @@
+{
+  "source": "https://wynncraft.com/news/blog/581",
+  "beta_api_has_mantra": false,
+  "provisional_nodes": [
+    "Strides of Heresy",
+    "Mantra",
+    "Ritual Circle",
+    "Doom",
+    "Transmute",
+    "Acid Rain",
+    "Malediction",
+    "Charged Ritual",
+    "Synchrony",
+    "Awakened",
+    "Eye of the Storm",
+    "Overcharge",
+    "Greater Sacrifice"
+  ],
+  "unmodeled_abilities": [
+    "Strides of Heresy",
+    "Mantra",
+    "Tribal Chants",
+    "Ritual Circle",
+    "Doom",
+    "Transmute",
+    "Acid Rain",
+    "Malediction",
+    "Charged Ritual",
+    "Synchrony",
+    "Awakened",
+    "Eye of the Storm",
+    "Overcharge"
+  ],
+  "omitted": [
+    "New mythic ascensions (user requested omission)",
+    "New items and ingredients without published stats"
+  ],
+  "assumptions": [
+    "Frog Dance 300% preserves the previous 3:1 elemental split.",
+    "Greater Sacrifice costs 1 AP.",
+    "Awakened replaces Sundered Skies; Corporeal Manifestation is merged into it.",
+    "Depersonalization is replaced by Mantra because Masquerade was removed."
+  ]
+}

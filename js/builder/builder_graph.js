@@ -853,6 +853,7 @@ class BuildDisplayNode extends ComputeNode {
 
         displayPoisonDamage(document.getElementById("build-poison-stats"), stats);
         manaInputChanged(build, stats);
+        updateSnapshot224Notice(stats);
     }
 }
 

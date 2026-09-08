@@ -6,7 +6,7 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
 
-    <title>WynnBuilder</title>
+    <title>WB 2.2.4 Snapshot — WynnBuilder</title>
     <link rel="icon" href="../media/icons/new/builder.png" type="image/icon type">
 
     <meta name="viewport" content="width=device-width, initial-scale=.45, user-scalable=no">
@@ -15,9 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="/thirdparty/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../thirdparty/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/thirdparty/autoComplete.min.css">
+    <link rel="stylesheet" href="../thirdparty/autoComplete.min.css">
 
     <link rel="stylesheet" href="../css/sq2bs.css">
     <link rel="stylesheet" href="../css/sidebar.css">
@@ -90,6 +90,15 @@
         </div>
     </div>
     <div class="container-fluid overall-box mt-lg-2" style="margin-top: 6vh;">
+<aside id="snapshot-224-notice" class="border border-warning rounded p-3 mb-3" aria-label="Snapshot status">
+<strong>WB 2.2.4 — experimental snapshot</strong>
+<p class="mb-1">Published item and ingredient rebalances are included. Ritualist connections are provisional; new ascensions are omitted.</p>
+<p id="snapshot-224-missing" class="mb-1">Unpublished Ritualist damage and buff values are excluded from totals.</p>
+<p id="snapshot-224-heretic" class="mb-1" hidden></p>
+<details><summary>Assumptions and coverage</summary>
+<p>Frog Dance uses the previous 3:1 elemental split at 300% total damage. Greater Sacrifice provisionally costs 1 AP. New item stats, several Ritualist coefficients, and collision-dependent effects await published data. These builds are experimental.</p>
+<a href="https://wynncraft.com/news/blog/581" target="_blank" rel="noopener">Official snapshot notes</a> · <a href="../docs/snapshot-2.2.4/README.md">Implementation coverage</a>
+</details></aside>
         <!-- REMOVE THIS DIV AT SOME POINT. -->
         <div class = "row scaled-font mx-auto" id = "discord-banner-dev">
                 <div id='discord-banner' class = "col text-center item-title">Join the <a class = "link" href = "https://discord.gg/CGavnAnerv" target = "_blank">discord</a> today to suggest new features, submit bug reports, and hangout/talk to devs!</div>
@@ -1647,8 +1656,8 @@
     </div>
     
     <script type="text/javascript" src="../js/redirect_fork.js"></script>
-    <script src="/thirdparty/autoComplete.min.js"></script>
-    <script src="/thirdparty/macy@2"></script>
+    <script src="../thirdparty/autoComplete.min.js"></script>
+    <script src="../thirdparty/macy@2"></script>
     <script type="text/javascript" src="../js/utils.js"></script>
     <script type="text/javascript" src="../js/build_utils.js"></script>
     <script type="text/javascript" src="../js/computation_graph.js"></script>
@@ -1671,7 +1680,7 @@
     <script type="text/javascript" src="../js/builder/build_encode_decode.js"></script>
     <script type="text/javascript" src="../js/builder/atree.js"></script>
     <script type="text/javascript" src="../js/builder/aspects.js"></script>
-    <script type="text/javascript" src="../js/builder/builder_graph.js"></script>
+    <script src="../js/snapshot_224.js"></script><script type="text/javascript" src="../js/builder/builder_graph.js"></script>
     <script type="text/javascript" src="../js/builder/builder.js"></script>
     <script type="text/javascript" src="../js/builder/optimize.js"></script>
     <!--div id="graph_body" style="max-width: 100%; height: 100vh">

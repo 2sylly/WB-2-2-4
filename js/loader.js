@@ -99,7 +99,7 @@ class Loader {
     static async load_json(paths, cache_mode='default') {
         const protocol = window.location.protocol;
         const host = window.location.host;
-        const base_url = `${protocol}//${host}`
+        const base_url = SITE_ROOT_URL
 
         if (typeof paths === "string") {
             let url = `${base_url}/${paths}.json`;

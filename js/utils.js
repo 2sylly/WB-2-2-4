@@ -1,3 +1,7 @@
+// Resolve assets against this script so project GitHub Pages paths work.
+const SITE_ROOT_URL = document.currentScript?.src
+    ? document.currentScript.src.replace(/\/js\/utils\.js(?:[?#].*)?$/, '')
+    : `${window.location.protocol}//${window.location.host}`;
 let getUrl = window.location;
 const url_base = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 

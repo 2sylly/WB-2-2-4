@@ -1708,18 +1708,18 @@
                     ]
                 },
                 {
-                  "type": "stat_scaling",
-                  "slider": true,
-                  "slider_name": "Grape Bomb hits",
-                  "behavior": "modify",
-                  "slider_max_mult": 2
+                    "type": "stat_scaling",
+                    "slider": true,
+                    "slider_name": "Grape Bomb hits",
+                    "behavior": "modify",
+                    "slider_max_mult": 2
                 },
                 {
-                  "type": "stat_scaling",
-                  "slider": true,
-                  "slider_name": "Shrapnel Hits",
-                  "behavior": "modify",
-                  "slider_max_mult": 2
+                    "type": "stat_scaling",
+                    "slider": true,
+                    "slider_name": "Shrapnel Hits",
+                    "behavior": "modify",
+                    "slider_max_mult": 2
                 }
             ]
         },
@@ -2592,7 +2592,7 @@
         },
         {
             "display_name": "Spectral Hover",
-            "desc": "Slow Falling is applied upon using Escape. Crouching at any point will cancel this effect. \u00a78(Effect cannot be refreshed mid-air) </br> </br>Duration: 5s",
+            "desc": "Slow Falling is applied upon using Escape. Crouching at any point will cancel this effect. §8(Effect cannot be refreshed mid-air) </br> </br>Duration: 5s",
             "parents": [
                 "Call of the Hound",
                 "Decimator"
@@ -9354,7 +9354,7 @@
         },
         {
             "display_name": "Freezing Sigil",
-            "desc": "Ice Snake will leave a sigil of ice beneath you that slows and damages enemies every 0.8s. Allies standing on the sigil will be immune to knockback. </br> </br><span class='mc-white'>Total Damage</span>: 20% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 15%)   </br>&emsp;(<span class='wDam'>Water</span>: 5%) </br>Area of Effect: 7 Blocks (Circle-Shaped) </br>Effects: 15% Slowness to Enemies, per hit (Max 60%)    Knockback Immunity to Allies </br>Duration: 8s </br>Cooldown: 8s",
+            "desc": "Ice Snake will leave a sigil of ice beneath you that slows and damages enemies every 0.8s. Allies standing on the sigil will be immune to knockback. </br> </br><span class='mc-white'>Total Damage</span>: 50% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 40%)   </br>&emsp;(<span class='wDam'>Water</span>: 10%) </br>Area of Effect: 7 Blocks (Circle-Shaped) </br>Effects: 15% Slowness to Enemies, per hit (Max 60%)    Knockback Immunity to Allies </br>Duration: 8s </br>Cooldown: 8s",
             "archetype": "Light Bender",
             "base_abil": "Ice Snake",
             "parents": [
@@ -9383,10 +9383,10 @@
                         {
                             "name": "Tick Damage",
                             "multipliers": [
-                                15,
+                                40,
                                 0,
                                 0,
-                                5,
+                                10,
                                 0,
                                 0
                             ]
@@ -15931,7 +15931,7 @@
         },
         {
             "display_name": "Flaming Tongue",
-            "desc": "Uproot becomes lashing flames, which hit 3 times at 3 hits per second, but it will not explode or knockback enemies. </br> Haunting Memory will no longer attach Masks to enemies. </br> </br><span class='mc-white'>Total Damage</span>: -35% (of your DPS, for Uproot, per hit)   </br>&emsp;(<span class='nDam'>Damage</span>: -5%)   </br>&emsp;(<span class='eDam'>Earth</span>: -30%)   </br>&emsp;(<span class='tDam'>Thunder</span>: -10%)   </br>&emsp;(<span class='fDam'>Fire</span>: +10%)",
+            "desc": "Uproot becomes lashing flames, which hit 3 times at 3 hits per second, but it will not explode or knockback enemies. </br> </br><span class='mc-white'>Total Damage</span>: -35% (of your DPS, for Uproot, per hit)   </br>&emsp;(<span class='nDam'>Damage</span>: -5%)   </br>&emsp;(<span class='eDam'>Earth</span>: -30%)   </br>&emsp;(<span class='tDam'>Thunder</span>: -10%)   </br>&emsp;(<span class='fDam'>Fire</span>: +10%)",
             "base_abil": "Uproot",
             "archetype": "Acolyte",
             "parents": [
@@ -16066,7 +16066,7 @@
         },
         {
             "display_name": "Mystic Masks",
-            "desc": "When casting Uproot, instead wear one of the Mystic Masks. (Shift + Uproot to remove it) </br> Lunatic: +15% Damage Bonus to Self    -15% Resistance Bonus to Self </br> Fanatic: +25% Resistance Bonus to Self    -25% Walk Speed to Self </br> Heretic: +50% Walk Speed to Self    -10% Damage Bonus to Self",
+            "desc": "When casting Uproot, instead wear one of the Mystic Masks. (Lunatic → Heretic → Fanatic; Shift + Uproot cycles backwards) </br> Lunatic: +15% Damage Bonus to Self    -15% Resistance Bonus to Self </br> Fanatic: +25% Resistance Bonus to Self    -25% Walk Speed to Self </br> Heretic: +50% Walk Speed to Self    -10% Damage Bonus to Self",
             "base_abil": "Uproot",
             "archetype": "Ritualist",
             "archetype_req": 2,
@@ -16378,7 +16378,7 @@
         },
         {
             "display_name": "Haunting Memory",
-            "desc": "When you switch Masks, throw your previous one forwards. If it hits an enemy, it will attach for a short time and debuff them. You will not receive the effects of your Mask until it returns. </br> </br><span class='mc-white'>Total Damage</span>: 240% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 240%) </br>Range: 14 Blocks </br>Effects:    Lunatic: -15% Damage Bonus to Enemies   Fanatic: -15% Resistance Bonus to Enemies   Heretic: +30% Slowness to Enemies </br>Duration: 4s",
+            "desc": "When you switch Masks, throw your previous one forwards. Masks pass through enemies with an increased hitbox, applying their debuffs without attaching. </br> </br><span class='mc-white'>Total Damage</span>: 240% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 240%) </br>Range: 14 Blocks </br>Effects:    Lunatic: -15% Damage Bonus to Enemies   Fanatic: -15% Resistance Bonus to Enemies   Heretic: +30% Slowness to Enemies </br>Duration: 4s",
             "base_abil": "Uproot",
             "archetype": "Ritualist",
             "parents": [
@@ -16507,7 +16507,7 @@
         },
         {
             "display_name": "Hymn of Hate",
-            "desc": "When wearing the Mask of the Lunatic \ue024, killing an enemy with Aura will cast a new Aura at its location, dealing -50% of its damage.",
+            "desc": "When wearing the Mask of the Lunatic , killing an enemy with Aura will cast a new Aura at its location, dealing -50% of its damage.",
             "base_abil": "Aura",
             "archetype": "Ritualist",
             "parents": [
@@ -16678,7 +16678,7 @@
             "archetype_req": 4,
             "parents": [
                 "Larger Blood Pool",
-                "Masquerade"
+                "Strides of Heresy"
             ],
             "dependencies": [
                 "Flaming Tongue"
@@ -16747,7 +16747,7 @@
             "base_abil": "Totem",
             "archetype": "Acolyte",
             "parents": [
-                "Masquerade",
+                "Strides of Heresy",
                 "Lashing Lance"
             ],
             "dependencies": [],
@@ -16762,32 +16762,28 @@
             "effects": []
         },
         {
-            "display_name": "Masquerade",
-            "desc": "Switching between Masks 2 times will give you 30 Mana.",
-            "base_abil": "Uproot",
-            "archetype": "Ritualist",
-            "archetype_req": 4,
+            "display_name": "Strides of Heresy",
+            "desc": "Switching to the Heretic Mask restores 30% of maximum mana and grants a decaying speed burst. Speed and duration are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Frog Dance",
-                "Lashing Lance",
-                "Larger Blood Pool"
+                "Eye of the Storm",
+                "Lashing Lance"
             ],
-            "dependencies": [],
+            "dependencies": [
+                "Mystic Masks"
+            ],
             "blockers": [],
-            "cost": 1,
+            "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 21,
                 "col": 5,
-                "icon": "node_1"
+                "icon": "node_2"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "add_spell_prop",
-                    "base_spell": 4,
-                    "mana_gained": 15
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Double Totem",
@@ -16802,7 +16798,9 @@
             "dependencies": [
                 "Aura"
             ],
-            "blockers": [],
+            "blockers": [
+                "Greater Sacrifice"
+            ],
             "cost": 2,
             "display": {
                 "row": 23,
@@ -16881,23 +16879,23 @@
         },
         {
             "display_name": "Storm Dance",
-            "desc": "Enemies hit by Aura will be pulled towards your totem. </br> </br><span class='mc-white'>Total Damage</span>: +30% (of your DPS)   </br>&emsp;(<span class='aDam'>Air</span>: +30%)",
+            "desc": "Enemies hit by Aura will be pulled towards your totem. </br> </br><span class='mc-white'>Total Damage</span>: +30% (of your DPS)   </br>&emsp;(<span class='aDam'>Air</span>: +30%) </br> Applies Weathering, slowing and weakening enemies. Strength is not specified in the snapshot notes and is not calculated.",
             "base_abil": "Aura",
             "archetype": "Ritualist",
             "parents": [
                 "Cheaper Totem II",
-                "Masquerade",
+                "Strides of Heresy",
                 "Cheaper Haul II"
             ],
             "dependencies": [
                 "Aura"
             ],
             "blockers": [],
-            "cost": 2,
+            "cost": 1,
             "display": {
                 "row": 23,
                 "col": 5,
-                "icon": "node_2"
+                "icon": "node_1"
             },
             "properties": {},
             "effects": [
@@ -17066,7 +17064,7 @@
         },
         {
             "display_name": "Twisted Tether",
-            "desc": "Nearby Bleeding enemies will take damage for every 2% Health you lose. (Max 20 activations per second)  </br> </br><span class='mc-white'>Total Damage</span>: 65% (of your DPS, per 2% health)   </br>&emsp;(<span class='nDam'>Damage</span>: 45%)   </br>&emsp;(<span class='aDam'>Air</span>: 20%) </br>Range: 20 Blocks",
+            "desc": "Nearby Bleeding enemies will take damage for every 2% Health you lose. (Max 10 activations per second)  </br> </br><span class='mc-white'>Total Damage</span>: 50% (of your DPS, per 2% health)   </br>&emsp;(<span class='nDam'>Damage</span>: 35%)   </br>&emsp;(<span class='aDam'>Air</span>: 15%) </br>Range: 20 Blocks",
             "archetype": "Acolyte",
             "archetype_req": 7,
             "parents": [
@@ -17094,12 +17092,12 @@
                         {
                             "name": "Tether Tick",
                             "multipliers": [
-                                45,
+                                35,
                                 0,
                                 0,
                                 0,
                                 0,
-                                20
+                                15
                             ]
                         },
                         {
@@ -17119,7 +17117,7 @@
                         {
                             "name": "Shatter Tether per Totem",
                             "hits": {
-                                "Tether Drain Threshold": 20
+                                "Tether Drain Threshold": 10
                             },
                             "display": false
                         },
@@ -17135,20 +17133,20 @@
         },
         {
             "display_name": "Totemic Shatter",
-            "desc": "While wearing the Mask of the Fanatic \ue023, your Totem will shatter upon impacting the ground, rapidly triggering 8s worth of its effects. </br> Regeneration will only heal 50% of its usual amount.",
+            "desc": "While wearing the Fanatic Mask, Totem shatters on impact, triggering 4s of its effects without reduced healing. Aura radiates from you (merged Egomania). The Egomania damage increase is not quantified in the snapshot notes.",
             "parents": [
-                "Frog Dance"
+                "Eye of the Storm"
             ],
             "dependencies": [
                 "Mystic Masks"
             ],
             "blockers": [],
             "archetype": "Ritualist",
-            "cost": 2,
+            "cost": 1,
             "display": {
                 "row": 21,
                 "col": 3,
-                "icon": "node_4"
+                "icon": "node_1"
             },
             "properties": {},
             "effects": [
@@ -17183,7 +17181,7 @@
                         {
                             "type": "stat",
                             "name": "damMult.TotemShatter:5.Explosion Damage",
-                            "value": 1900
+                            "value": 900
                         }
                     ]
                 },
@@ -17199,33 +17197,28 @@
             ]
         },
         {
-            "display_name": "Depersonalization",
-            "desc": "Masquerade will trigger after -1 less Mask switch. Reduces mana  bonus by -10.",
-            "archetype": "Ritualist",
-            "archetype_req": 7,
-            "base_abil": "Uproot",
+            "display_name": "Mantra",
+            "desc": "Unworn masks grow up to +200% stronger over time; the boost decays while worn. Timing and which bonuses scale are not fully specified. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Rupture",
+                "Tribal Chants",
                 "Imbued Totem"
             ],
             "dependencies": [
-                "Masquerade"
+                "Mystic Masks"
             ],
             "blockers": [],
-            "cost": 1,
+            "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 29,
                 "col": 5,
-                "icon": "node_1"
+                "icon": "node_3"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "add_spell_prop",
-                    "base_spell": 4,
-                    "mana_gained": 5
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Crimson Effigy",
@@ -17288,7 +17281,7 @@
         },
         {
             "display_name": "Tribal Chants",
-            "desc": "Switching Masks buffs nearby allies. </br> Lunatic: +15% Damage Bonus to Allies </br>Duration: 6s </br> Fanatic: +45% Resistance Bonus to Allies </br>Duration: 3s </br> Heretic: +60% Walk Speed to Allies (-10% of the bonus decays every second) </br> </br>Area of Effect: 8 Blocks (Circle-Shaped) </br>Cooldown: 8s (per Chant)",
+            "desc": "Nearby allies gain mask-dependent buffs while a mask is worn. Stacks build while equipped and decay after removal. Stack strengths, caps and timings are not published; these ally buffs are excluded from totals.",
             "base_abil": "Uproot",
             "archetype": "Ritualist",
             "archetype_req": 8,
@@ -17305,50 +17298,13 @@
                 "col": 4,
                 "icon": "node_3"
             },
-            "properties": {
-                "lunatic_chant_strength": 15,
-                "fanatic_chant_resistance": 45,
-                "heretic_chant_speed": 60
-            },
-            "effects": [
-                {
-                    "type": "raw_stat",
-                    "toggle": "Chant of the Lunatic",
-                    "bonuses": [
-                        {
-                            "type": "stat",
-                            "name": "damMult.Potion",
-                            "value": "Uproot.lunatic_chant_strength"
-                        }
-                    ]
-                },
-                {
-                    "type": "raw_stat",
-                    "toggle": "Chant of the Fanatic",
-                    "bonuses": [
-                        {
-                            "type": "stat",
-                            "name": "defMult.Chant",
-                            "value": "Uproot.fanatic_chant_resistance"
-                        }
-                    ]
-                },
-                {
-                    "type": "raw_stat",
-                    "toggle": "Chant of the Heretic",
-                    "bonuses": [
-                        {
-                            "type": "stat",
-                            "name": "spd",
-                            "value": "Uproot.heretic_chant_speed"
-                        }
-                    ]
-                }
-            ]
+            "properties": {},
+            "effects": [],
+            "snapshot_unmodeled": true
         },
         {
             "display_name": "Eldritch Call",
-            "desc": "Casting Totem while holding shift will spend 35 points of Blood Pool (per Totem) to call upon 4 nightmarish tentacles that attack nearby enemies. </br> Tentacles will attack Bleeding enemies from an additional +6 blocks away. </br> Blood Connection turns into a teleport while Eldritch Call is active. </br> </br><span class='mc-white'>Total Damage</span>: 700% (of your DPS, per strike)   </br>&emsp;(<span class='nDam'>Damage</span>: 540%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 80%)   </br>&emsp;(<span class='fDam'>Fire</span>: 80%) </br>Area of Effect: 15 Blocks (Circle-Shaped) </br>Duration: 10s",
+            "desc": "Casting Totem while holding shift will spend 35 points of Blood Pool (per Totem) to call upon 4 nightmarish tentacles that attack nearby enemies. </br> Tentacles will attack Bleeding enemies from an additional +6 blocks away. </br> Blood Connection turns into a teleport while Eldritch Call is active. </br> </br><span class='mc-white'>Total Damage</span>: 850% (of your DPS, per strike)   </br>&emsp;(<span class='nDam'>Damage</span>: 650%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 100%)   </br>&emsp;(<span class='fDam'>Fire</span>: 100%) </br>Area of Effect: 15 Blocks (Circle-Shaped) </br>Duration: 10s",
             "archetype": "Acolyte",
             "archetype_req": 7,
             "parents": [
@@ -17376,11 +17332,11 @@
                         {
                             "name": "Single Hit",
                             "multipliers": [
-                                540,
+                                650,
                                 0,
-                                80,
+                                100,
                                 0,
-                                80,
+                                100,
                                 0
                             ]
                         },
@@ -17448,31 +17404,28 @@
             "effects": []
         },
         {
-            "display_name": "Chorus of the Ancients",
-            "desc": "Increase the power of all Chants. </br> Lunatic: +15% Damage Bonus to Allies Fanatic: +20% Resistance Bonus to Allies Heretic: +60% Walk Speed to Allies",
-            "archetype": "Ritualist",
-            "archetype_req": 10,
-            "base_abil": "Uproot",
+            "display_name": "Ritual Circle",
+            "desc": "Spells discounted by Artist's Immersion grow a Ritual Circle: +1 radius and hit per cast. Switching masks detonates it and applies Static. Damage and base caps are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Depersonalization",
+                "Mantra",
                 "Invigorating Wave"
             ],
             "dependencies": [
-                "Tribal Chants"
+                "Artist's Immersion"
             ],
             "blockers": [],
             "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 32,
                 "col": 4,
-                "icon": "node_2"
+                "icon": "node_3"
             },
-            "properties": {
-                "lunatic_chant_strength": 15,
-                "fanatic_chant_resistance": 20,
-                "heretic_chant_speed": 60
-            },
-            "effects": []
+            "properties": {},
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Scourge",
@@ -17530,10 +17483,10 @@
         },
         {
             "display_name": "Sanguine Strike",
-            "desc": "Greatly reduce Main Attack spread. </br> Your Main Attack will now inflict enemies with Bleeding for +2s. </br> Bleeding enemies take damage every 0.5s. Bleeding damage dealt within Totem's range also adds +0.8 points to your Blood Pool. </br> </br><span class='mc-white'>Total Damage</span>: 60% (of your DPS, from Bleeding)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%) </br>Cooldown: 2s (per enemy)",
+            "desc": "Your Main Attack will now inflict enemies with Bleeding for +2s. </br> Bleeding enemies take damage every 0.5s. Bleeding damage dealt within Totem's range also adds +0.8 points to your Blood Pool. </br> </br><span class='mc-white'>Total Damage</span>: 60% (of your DPS, from Bleeding)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%) </br>Cooldown: 2s (per enemy)",
             "parents": [
                 "Blood Rite",
-                "Chorus of the Ancients"
+                "Ritual Circle"
             ],
             "dependencies": [],
             "blockers": [],
@@ -17612,32 +17565,31 @@
             ]
         },
         {
-            "display_name": "Meticulous Act",
-            "desc": "Your Masks will give higher bonuses. </br> Lunatic: +25% Damage Bonus Fanatic: +20% Resistance Bonus Heretic: +40% Walk Speed",
-            "base_abil": "Uproot",
-            "archetype": "Ritualist",
-            "archetype_req": 11,
+            "display_name": "Doom",
+            "desc": "Increases Eye of the Storm damage. The increase is not published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Depersonalization"
+                "Mantra"
             ],
-            "dependencies": [],
+            "dependencies": [
+                "Eye of the Storm"
+            ],
             "blockers": [],
             "cost": 1,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 30,
                 "col": 3,
                 "icon": "node_0"
             },
-            "properties": {
-                "lunatic_damage": 25,
-                "fanatic_res": 20,
-                "heretic_speed": 40
-            },
-            "effects": []
+            "properties": {},
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Bloodletting",
-            "desc": "Increase Twisted Tether's damage. </br> </br><span class='mc-white'>Total Damage</span>: +25% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +25%)",
+            "desc": "Increase Twisted Tether damage by +10% Neutral and +5% Air (15% total).",
             "parents": [
                 "Scourge"
             ],
@@ -17658,12 +17610,12 @@
                     "base_spell": 8,
                     "target_part": "Tether Tick",
                     "multipliers": [
-                        25,
+                        10,
                         0,
                         0,
                         0,
                         0,
-                        0
+                        5
                     ]
                 }
             ]
@@ -17738,7 +17690,7 @@
             "parents": [
                 "Hummingbirds' Song",
                 "Triple Totem",
-                "Chorus of the Ancients"
+                "Ritual Circle"
             ],
             "dependencies": [
                 "Aura"
@@ -17846,10 +17798,8 @@
             ]
         },
         {
-            "display_name": "Seeking Totem",
-            "desc": "While wearing the Mask of the Heretic \ue022, your Totem will move towards you, unless you are within its range.",
-            "base_abil": "Totem",
-            "archetype": "Ritualist",
+            "display_name": "Transmute",
+            "desc": "Main Attacks gain different effects for each Mask. Their details and damage are not published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Tribal Chants",
                 "Crimson Effigy"
@@ -17859,33 +17809,36 @@
             ],
             "blockers": [],
             "cost": 1,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 27,
                 "col": 3,
                 "icon": "node_1"
             },
             "properties": {},
-            "effects": []
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Frog Dance",
-            "desc": "When wearing the Mask of the Heretic \ue022, Haul will instead bounce you off the ground 3 times at an increasing speed and damage nearby enemies. (Hold shift to cancel) </br> Frog Dance does not require Totem to be used. </br> </br><span class='mc-white'>Total Damage</span>: 200% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 150%)   </br>&emsp;(<span class='wDam'>Water</span>: 50%) </br>Area of Effect: 4.5 Blocks (Circle-Shaped)",
+            "desc": "When wearing the Heretic Mask, Haul bounces once, dealing 300% total damage. Totem is not required. Snapshot notes do not specify the new elemental split; the calculator provisionally preserves the previous 3:1 Neutral/Water ratio.",
             "archetype": "Ritualist",
             "archetype_req": 4,
             "base_abil": "Haul",
             "parents": [
-                "Cheaper Uproot I",
-                "Larger Blood Pool"
+                "Totemic Reach"
             ],
             "dependencies": [
                 "Mystic Masks"
             ],
             "blockers": [],
-            "cost": 2,
+            "cost": 1,
             "display": {
-                "row": 20,
-                "col": 4,
-                "icon": "node_4"
+                "row": 19,
+                "col": 5,
+                "icon": "node_1"
             },
             "properties": {},
             "effects": [
@@ -17894,10 +17847,10 @@
                     "base_spell": 2,
                     "target_part": "Hop Damage",
                     "multipliers": [
-                        150,
+                        225,
                         0,
                         0,
-                        50,
+                        75,
                         0,
                         0
                     ]
@@ -17907,32 +17860,35 @@
                     "base_spell": 2,
                     "target_part": "Total Damage",
                     "hits": {
-                        "Hop Damage": 3
+                        "Hop Damage": 1
                     },
                     "display": "Total Damage"
                 }
+            ],
+            "snapshot_assumptions": [
+                "300% damage allocated 225% Neutral / 75% Water, preserving the previous split."
             ]
         },
         {
             "display_name": "Artist's Immersion",
-            "desc": "Your Masks reduce the cost of different abilities based on the active Mask. </br> Lunatic: -30% Aura Cost Fanatic: -65% Totem Cost Heretic: -50% Haul Cost",
+            "desc": "Your Masks reduce the cost of different abilities based on the active Mask. </br> Lunatic: -50% Aura Cost Fanatic: -65% Totem Cost Heretic: -50% Haul Cost",
             "archetype": "Ritualist",
             "base_abil": "Uproot",
             "parents": [
-                "Frog Dance"
+                "Eye of the Storm"
             ],
             "dependencies": [
                 "Mystic Masks"
             ],
             "blockers": [],
-            "cost": 2,
+            "cost": 1,
             "display": {
                 "row": 22,
                 "col": 4,
-                "icon": "node_2"
+                "icon": "node_1"
             },
             "properties": {
-                "lunatic_cost": -30,
+                "lunatic_cost": -50,
                 "fanatic_cost": -65,
                 "heretic_cost": -50
             },
@@ -18168,71 +18124,29 @@
             ]
         },
         {
-            "display_name": "Awakened",
-            "desc": "After saving 150 mana from your Masks' mana reductions, switching Masks will cause you to become Awakened, giving you the upsides of all Masks at once with no downsides. </br> Switching to an attached Mask while Awakened will immediately recall the Mask back to you. </br> </br>Duration: 25s",
-            "base_abil": "Uproot",
-            "archetype": "Ritualist",
-            "archetype_req": 11,
+            "display_name": "Acid Rain",
+            "desc": "Totemic Shatter causes Rain Dance to apply Corroded, increasing damage taken. Additional stacks extend duration. Base strength and timing are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Chorus of the Ancients",
+                "Ritual Circle",
                 "Cheaper Uproot II"
             ],
             "dependencies": [
-                "Artist's Immersion"
+                "Totemic Shatter",
+                "Rain Dance"
             ],
             "blockers": [],
             "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 34,
                 "col": 5,
-                "icon": "node_3"
+                "icon": "node_4"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "replace_spell",
-                    "name": "Switch Masks",
-                    "base_spell": 4,
-                    "parts": [],
-                    "display": ""
-                },
-                {
-                    "type": "raw_stat",
-                    "toggle": "Awakened",
-                    "bonuses": [
-                        {
-                            "type": "stat",
-                            "name": "damMult.Mask",
-                            "value": "Uproot.lunatic_damage"
-                        },
-                        {
-                            "type": "stat",
-                            "name": "defMult.Mask",
-                            "value": "Uproot.fanatic_res"
-                        },
-                        {
-                            "type": "stat",
-                            "name": "spd",
-                            "value": "Uproot.heretic_speed"
-                        },
-                        {
-                            "type": "stat",
-                            "name": "spPct1Final",
-                            "value": "Uproot.fanatic_cost"
-                        },
-                        {
-                            "type": "stat",
-                            "name": "spPct2Final",
-                            "value": "Uproot.heretic_cost"
-                        },
-                        {
-                            "type": "stat",
-                            "name": "spPct3Final",
-                            "value": "Uproot.lunatic_cost"
-                        }
-                    ]
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Blood Sorrow",
@@ -18295,7 +18209,7 @@
             "base_abil": "Uproot",
             "parents": [
                 "Soaring Wingbeats",
-                "Awakened"
+                "Acid Rain"
             ],
             "dependencies": [
                 "Uproot"
@@ -18451,7 +18365,7 @@
             "parents": [
                 "Crystal Knives",
                 "Cheaper Uproot II",
-                "Awakened",
+                "Acid Rain",
                 "Repulse"
             ],
             "dependencies": [],
@@ -18466,84 +18380,62 @@
             "effects": []
         },
         {
-            "display_name": "Egomania",
-            "desc": "When wearing the Mask of the Fanatic \ue023, Aura will radiate from yourself instead of your Totem. </br> Increase Aura's damage. </br> </br><span class='mc-white'>Total Damage</span>: +10% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +10%)",
+            "display_name": "Malediction",
+            "desc": "Main Attacks consume Static to deal extra damage and have reduced spread. Damage is unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Crystal Knives",
                 "Freestyle",
-                "Totemic Hammer"
+                "Charged Ritual"
             ],
             "dependencies": [
-                "Mystic Masks"
+                "Eye of the Storm"
             ],
             "blockers": [],
             "cost": 1,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 39,
                 "col": 3,
                 "icon": "node_1"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "add_spell_prop",
-                    "base_spell": 3,
-                    "behavior": "modify",
-                    "target_part": "Single Wave",
-                    "multipliers": [
-                        10,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
-            "display_name": "Totemic Hammer",
-            "desc": "When wearing the Mask of the Lunatic \ue024, Totem will smash down onto the ground. </br> Increase Totemic Smash's damage. </br> </br><span class='mc-white'>Total Damage</span>: +50% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +40%)   </br>&emsp;(<span class='fDam'>Fire</span>: +10%)",
+            "display_name": "Charged Ritual",
+            "desc": "Eye of the Storm applies Static. Shift + Totem while wearing Lunatic detonates Static. Damage and stack limits are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Egomania",
+                "Malediction",
                 "Freestyle",
                 "Repulse"
             ],
             "dependencies": [
-                "Mystic Masks"
+                "Eye of the Storm"
             ],
             "blockers": [],
-            "cost": 1,
+            "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 39,
                 "col": 5,
-                "icon": "node_1"
+                "icon": "node_2"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "add_spell_prop",
-                    "base_spell": 1,
-                    "target_part": "Smash Damage",
-                    "behavior": "modify",
-                    "multipliers": [
-                        40,
-                        0,
-                        0,
-                        0,
-                        10,
-                        0
-                    ]
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Pool of Rejuvenation",
-            "desc": "When wearing the Mask of the Heretic \ue022, Frog Dance will create a small pool when hitting the ground. (Max 3) </br> Gain +1 Mana every 0.2s while inside of at least one pool. </br> </br>Duration: 8s </br>Area of Effect: 5 Blocks (Circle-Shaped)",
+            "desc": "When wearing the Mask of the Heretic , Frog Dance will create a small pool when hitting the ground. (Max 3) </br> Gain +1 Mana every 0.2s while inside of at least one pool. </br> </br>Duration: 8s </br>Area of Effect: 5 Blocks (Circle-Shaped)",
             "archetype": "Ritualist",
             "parents": [
-                "Egomania",
-                "Totemic Hammer"
+                "Malediction",
+                "Charged Ritual"
             ],
             "dependencies": [
                 "Mystic Masks"
@@ -18559,38 +18451,31 @@
             "effects": []
         },
         {
-            "display_name": "Corporeal Manifestation",
-            "desc": "When wearing the Mask of the Awakened, all of your other Masks will spin around you, dealing damage and applying Haunting Memory's effects. </br> </br>Range: 3 Blocks",
-            "archetype": "Ritualist",
+            "display_name": "Synchrony",
+            "desc": "Certain actions with different masks grow Ritual Circle radius and hit count. Trigger details are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Pool of Rejuvenation"
             ],
             "dependencies": [
-                "Haunting Memory"
+                "Ritual Circle"
             ],
             "blockers": [],
             "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
             "display": {
                 "row": 41,
                 "col": 5,
                 "icon": "node_2"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "add_spell_prop",
-                    "target_part": "Rotation DPS",
-                    "base_spell": 4,
-                    "display": "Rotation DPS",
-                    "hits": {
-                        "Mask Throw": 1
-                    }
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Rupture",
-            "desc": "Sacrificial Shrine boosts Aura's damage by +15% and consumes up to 2s of Bleeding, granting +2.2 Blood Pool for each second of Bleeding consumed.",
+            "desc": "Sacrificial Shrine boosts Aura's damage by +30% and consumes up to 2s of Bleeding, granting +2.2 Blood Pool for each second of Bleeding consumed.",
             "archetype": "Acolyte",
             "archetype_req": 6,
             "base_abil": "Sacrificial Shrine",
@@ -18618,7 +18503,7 @@
                         {
                             "type": "stat",
                             "name": "damMult.BloodPool:3.Single Wave",
-                            "value": 15
+                            "value": 30
                         }
                     ]
                 }
@@ -18660,7 +18545,7 @@
         },
         {
             "display_name": "Effuse",
-            "desc": "Flaming Tongue grants +2.5 Blood Pool per hit.",
+            "desc": "Flaming Tongue grants +1.2 Blood Pool per hit and deals +20% Neutral and +5% Fire damage.",
             "archetype": "Acolyte",
             "archetype_req": 11,
             "parents": [
@@ -18678,7 +18563,21 @@
                 "icon": "node_4"
             },
             "properties": {},
-            "effects": []
+            "effects": [
+                {
+                    "type": "add_spell_prop",
+                    "base_spell": 4,
+                    "target_part": "Single Hit",
+                    "multipliers": [
+                        20,
+                        0,
+                        0,
+                        0,
+                        5,
+                        0
+                    ]
+                }
+            ]
         },
         {
             "display_name": "Repulse",
@@ -18851,63 +18750,28 @@
             ]
         },
         {
-            "display_name": "Sundered Skies",
-            "desc": "Click Combo: F </br> Your Totem massively grows in size, doubling all of its effects. </br> When your Totem lands, it summons a massive Thundercloud that zaps enemies every 1s, stunning them for 1.5s. </br> Damage is split between all enemies. </br> </br><span class='mc-white'>Total Damage</span>: 2400% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 1600%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 400%)   </br>&emsp;(<span class='wDam'>Water</span>: 400%) </br>Effect: 100% Slowness to Enemies </br>Duration: 18s </br>Area of Effect: 24 Blocks (Circle-Shaped) </br> Activate abilities to charge your Ultimate Meter to 100%",
-            "archetype": "Ritualist",
-            "archetype_req": 15,
+            "display_name": "Awakened",
+            "desc": "Ultimate: gain all Mask effects, set Mantra to 250%, and gain Corporeal Manifestation. Duration and the exact scaled effects are not fully published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
-                "Corporeal Manifestation"
+                "Overcharge"
             ],
-            "dependencies": [],
+            "dependencies": [
+                "Mantra",
+                "Haunting Memory"
+            ],
             "blockers": [],
             "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 15,
             "display": {
                 "row": 45,
                 "col": 4,
                 "icon": "node_3"
             },
             "properties": {},
-            "effects": [
-                {
-                    "type": "replace_spell",
-                    "name": "Sundered Skies",
-                    "base_spell": 14,
-                    "display": "Thundercloud DPS",
-                    "parts": [
-                        {
-                            "name": "Thundercloud Hit",
-                            "type": "damage",
-                            "multipliers": [
-                                1600,
-                                0,
-                                400,
-                                400,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "name": "Thundercloud DPS",
-                            "type": "total",
-                            "hits": {
-                                "Thundercloud Hit": 1
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "raw_stat",
-                    "toggle": "Activate Sundered Skies",
-                    "bonuses": [
-                        {
-                            "type": "prop",
-                            "abil": "Totem",
-                            "name": "totem_mul",
-                            "value": 2.5
-                        }
-                    ]
-                }
-            ]
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
         },
         {
             "display_name": "Monument to Gloom",
@@ -18936,6 +18800,88 @@
                     "display": "Heal Rate"
                 }
             ]
+        },
+        {
+            "display_name": "Eye of the Storm",
+            "desc": "Lunatic Aura casts grant Surge. Nearby enemies take damage every 1.5s, increasing with Surge. Damage coefficients and the Surge cap are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "parents": [
+                "Haunting Memory",
+                "Cheaper Uproot I"
+            ],
+            "dependencies": [
+                "Mystic Masks"
+            ],
+            "blockers": [],
+            "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
+            "display": {
+                "row": 20,
+                "col": 4,
+                "icon": "node_4"
+            },
+            "properties": {},
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
+        },
+        {
+            "display_name": "Overcharge",
+            "desc": "Switching from a mask above 150% Mantra instantly charges the next mask to 250% Mantra. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "parents": [
+                "Synchrony"
+            ],
+            "dependencies": [
+                "Mantra"
+            ],
+            "blockers": [],
+            "cost": 2,
+            "archetype": "Ritualist",
+            "archetype_req": 0,
+            "display": {
+                "row": 43,
+                "col": 4,
+                "icon": "node_2"
+            },
+            "properties": {},
+            "effects": [],
+            "snapshot_unmodeled": true,
+            "snapshot_provisional": true
+        },
+        {
+            "display_name": "Greater Sacrifice",
+            "desc": "Sacrificial Shrine siphons +1% of your health every 0.4s and boosts Aura damage by +20%. Blocks Double Totem. AP cost is provisionally 1.",
+            "parents": [
+                "Bloodier"
+            ],
+            "dependencies": [
+                "Sacrificial Shrine"
+            ],
+            "blockers": [
+                "Double Totem"
+            ],
+            "cost": 1,
+            "archetype": "Acolyte",
+            "display": {
+                "row": 35,
+                "col": 8,
+                "icon": "node_0"
+            },
+            "properties": {},
+            "effects": [
+                {
+                    "type": "raw_stat",
+                    "bonuses": [
+                        {
+                            "type": "stat",
+                            "name": "damMult.BloodPool:3.Single Wave",
+                            "value": 20
+                        }
+                    ],
+                    "toggle": "Activate Boosted Aura"
+                }
+            ],
+            "snapshot_provisional": true
         }
     ],
     "Any": []
