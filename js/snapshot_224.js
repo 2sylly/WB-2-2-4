@@ -8,7 +8,7 @@ function snapshot224ManaOnHeretic(stats) {
 function updateSnapshot224Notice(stats) {
     const notice = document.getElementById('snapshot-224-notice');
     if (!notice) return;
-    const isSnapshot = wynn_version_names[wynn_version_id] === '2.2.4.0';
+    const isSnapshot = wynn_version_names[wynn_version_id] .startsWith('2.2.4.');
     notice.hidden = !isSnapshot;
     if (!isSnapshot) return;
     const state = atree_state_node.value;

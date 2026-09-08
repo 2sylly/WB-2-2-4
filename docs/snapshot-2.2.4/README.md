@@ -11,17 +11,17 @@ This is an experimental snapshot fork, not a claim of complete game parity. The 
 - The new Ritualist nodes, revised AP costs, removal/replacement of obsolete nodes, Greater Sacrifice and its Double Totem exclusion, and the revised aspect names/descriptions. Old aspect IDs are preserved.
 - Calculable changes to Wavebreak, Divine Right, Fissure, Gentle Glow, Old Spark, Forest's Blessing, Slow Boil, Solar Wind, Juggle, Cindercurse, Faustian Gambit, and Sublimation.
 - A separate Strides of Heresy readout: 30% of the final maximum mana when the ability is selected. It does not assume every spell-cycle Uproot switches to Heretic.
-- Historical datasets are unchanged. New builds use version index 34 (`2.2.4.0`). Existing item and aspect IDs, level 121 and seven powder tiers are retained. Share snapshot links from this fork: an official-site link may interpret the experimental version differently.
+- Historical datasets are unchanged. New builds use version index 35 (`2.2.4.1`); revision 0 remains available for existing links. Existing item and aspect IDs, level 121 and seven powder tiers are retained. Share snapshot links from this fork: an official-site link may interpret the experimental version differently.
 
 ## Provisional or not calculated
 
 The visible builder notice and node tooltips identify these limits. `coverage.json` contains the machine-readable node list.
 
-- Ritualist connections, replacement positions and archetype requirements are provisional. Greater Sacrifice is provisionally one AP.
+- Fourteen uncertain-position abilities are selected in a checklist beside the tree, including the moved Frog Dance. Their AP costs count normally; placement and inferred archetype requirements do not gate selection. Known exclusions remain enforced. Tree paths bypass checklist nodes. Greater Sacrifice is provisionally one AP.
 - Awakened replaces Sundered Skies and absorbs Corporeal Manifestation. Depersonalization is replaced by Mantra because its old Masquerade effect no longer applies. These structural choices are inferred.
 - Frog Dance's published total is 300%; its 225% Neutral / 75% Water split preserves the old 3:1 ratio and is **not confirmed**.
 - Eye of the Storm, Mantra scaling, Transmute, Charged Ritual, Doom, Malediction, Acid Rain, Ritual Circle, Synchrony, Overcharge, Awakened and the new Tribal Chants have missing coefficients, caps or timing details. Their unspecified damage/buffs are **excluded from totals**, not estimated. New aspects targeting them have updated descriptions but cannot yet contribute numerical effects. Strides' speed burst is also unmodeled.
-- Weathering's strength and the corrected merged Egomania Aura bonus are not published. Greater Sacrifice's extra drain is described but is not yet included in the automatic Twisted Tether drain estimate. The new Tether activation cap is documented; arbitrary external health-drain events are not simulated.
+- Weathering's strength and the corrected merged Egomania Aura bonus are not published. Totemic Shatter inherits the old +10% Neutral Aura coefficient, explicitly marked provisional. Greater Sacrifice's extra drain is described but is not yet included in the automatic Twisted Tether drain estimate. The new Tether activation cap is documented; arbitrary external health-drain events are not simulated.
 - Find Thyself, Alter Ego and Starcrossed have updated descriptions; event-based mana, Mantra timing and linked-target damage are not simulated. Hawkeye's Feedback Loop capacity reduction and Blinding Lights' collision-dependent cooldown are described but are outside upstream's steady-DPS model.
 - Solar Wind assumes three lightning hits on one target: unchanged 840% total conversion and 30 Mana Bank gain. It does not model misses or multi-target hits.
 - Masterwork Divzer, Sunstar and Warp are included from user screenshots. Other ascensions remain omitted. Other new items/ingredients, Dreamer's Soul's unnamed new major ID, unpublished lore, the Ornate Shadow set correction and unquantified fixes await authoritative data.
@@ -51,3 +51,9 @@ Added Masterwork Divzer (level 110), Masterwork Sunstar (109), and Masterwork Wa
 Vortex adds 200% Neutral + 20% Air to each Teleport; displacement is not simulated. Warp's screenshot endpoints for mana regeneration (-46 to -25) and Teleport cost (-113 to -488) are preserved explicitly because upstream rounding of the inferred base values differs by one. Other visible rolls use the existing expansion rules.
 
 Source: three user-supplied item-guide screenshots showing ordinary and ascended Divzer, Sunstar, and Warp. The preview site's hostname is obscured, so these are provisional user-provided data, not independently verified API data.
+
+## Checklist and inherited effects
+
+Revision 1 moves uncertain nodes into an independent checklist beside the tree. Selections use the same AP accounting, effects, saved build state, Copy/Paste Tree and Clear Tree operations. Revision 0 data stays unchanged, and its build trees decode against the old topology before upgrading.
+
+The pinned old tree defines Egomania as +10% Neutral to Aura’s Single Wave and Corporeal Manifestation as one Mask Throw per second in Rotation DPS, with a 3-block orbit applying Haunting Memory. Those definitions are carried into Totemic Shatter and Awakened respectively. Egomania’s newly corrected value is still unspecified, so the inherited coefficient is identified as provisional. Awakened’s new Mantra scaling and ultimate uptime remain excluded; its Rotation DPS is the inherited active-state model. Tribal Chants was explicitly reworked to stacking buffs, so its old fixed buffs are not reused as new coefficients.

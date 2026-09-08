@@ -18,8 +18,8 @@ const read = p => fs.readFileSync(path.join(root, p), 'utf8');
       'js/loader.js','js/load_item.js','js/builder/build_encode_decode.js','js/builder/atree.js']) {
       vm.runInContext(read(file), context, {filename:file});
     }
-    await vm.runInContext(`Promise.all([Loader.load_json('data/2.2.4.0/items'),
-      load_major_id_data('2.2.4.0'),load_encoding_constants('2.2.4.0','2.2.3.0'),load_atree_data('2.2.4.0')])`,context);
+    await vm.runInContext(`Promise.all([Loader.load_json('data/2.2.4.1/items'),
+      load_major_id_data('2.2.4.1'),load_encoding_constants('2.2.4.1','2.2.3.0'),load_atree_data('2.2.4.1')])`,context);
     assert.equal(requests.length,5);
     for (const page of ['builder/index.html','builder/index_full.html']) {
       for (const match of read(page).matchAll(/(?:src|href)=["']([^"']+)["']/g)) {

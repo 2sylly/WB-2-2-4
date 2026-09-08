@@ -16763,7 +16763,7 @@
         },
         {
             "display_name": "Strides of Heresy",
-            "desc": "Switching to the Heretic Mask restores 30% of maximum mana and grants a decaying speed burst. Speed and duration are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Switching to the Heretic Mask restores 30% of maximum mana and grants a decaying speed burst. Speed and duration are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Eye of the Storm",
                 "Lashing Lance"
@@ -16783,7 +16783,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Double Totem",
@@ -17133,7 +17134,7 @@
         },
         {
             "display_name": "Totemic Shatter",
-            "desc": "While wearing the Fanatic Mask, Totem shatters on impact, triggering 4s of its effects without reduced healing. Aura radiates from you (merged Egomania). The Egomania damage increase is not quantified in the snapshot notes.",
+            "desc": "While wearing the Fanatic Mask, Totem shatters on impact, triggering 4s of its effects without reduced healing. Aura radiates from you (merged Egomania).  </br>Inherited Egomania: +10% Neutral Aura damage. The snapshot mentions a correction without a replacement coefficient; +10% remains provisional.",
             "parents": [
                 "Eye of the Storm"
             ],
@@ -17193,12 +17194,26 @@
                     "hits": {
                         "Shatter Tether per Totem": "Totem.num_totems"
                     }
+                },
+                {
+                    "type": "add_spell_prop",
+                    "base_spell": 3,
+                    "behavior": "modify",
+                    "target_part": "Single Wave",
+                    "multipliers": [
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
                 }
             ]
         },
         {
             "display_name": "Mantra",
-            "desc": "Unworn masks grow up to +200% stronger over time; the boost decays while worn. Timing and which bonuses scale are not fully specified. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Unworn masks grow up to +200% stronger over time; the boost decays while worn. Timing and which bonuses scale are not fully specified. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Tribal Chants",
                 "Imbued Totem"
@@ -17218,7 +17233,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Crimson Effigy",
@@ -17405,7 +17421,7 @@
         },
         {
             "display_name": "Ritual Circle",
-            "desc": "Spells discounted by Artist's Immersion grow a Ritual Circle: +1 radius and hit per cast. Switching masks detonates it and applies Static. Damage and base caps are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Spells discounted by Artist's Immersion grow a Ritual Circle: +1 radius and hit per cast. Switching masks detonates it and applies Static. Damage and base caps are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Mantra",
                 "Invigorating Wave"
@@ -17425,7 +17441,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Scourge",
@@ -17566,7 +17583,7 @@
         },
         {
             "display_name": "Doom",
-            "desc": "Increases Eye of the Storm damage. The increase is not published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Increases Eye of the Storm damage. The increase is not published. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Mantra"
             ],
@@ -17585,7 +17602,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Bloodletting",
@@ -17799,7 +17817,7 @@
         },
         {
             "display_name": "Transmute",
-            "desc": "Main Attacks gain different effects for each Mask. Their details and damage are not published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Main Attacks gain different effects for each Mask. Their details and damage are not published. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Tribal Chants",
                 "Crimson Effigy"
@@ -17819,7 +17837,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Frog Dance",
@@ -17867,7 +17886,8 @@
             ],
             "snapshot_assumptions": [
                 "300% damage allocated 225% Neutral / 75% Water, preserving the previous split."
-            ]
+            ],
+            "snapshot_checklist": true
         },
         {
             "display_name": "Artist's Immersion",
@@ -18125,7 +18145,7 @@
         },
         {
             "display_name": "Acid Rain",
-            "desc": "Totemic Shatter causes Rain Dance to apply Corroded, increasing damage taken. Additional stacks extend duration. Base strength and timing are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Totemic Shatter causes Rain Dance to apply Corroded, increasing damage taken. Additional stacks extend duration. Base strength and timing are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Ritual Circle",
                 "Cheaper Uproot II"
@@ -18146,7 +18166,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Blood Sorrow",
@@ -18381,7 +18402,7 @@
         },
         {
             "display_name": "Malediction",
-            "desc": "Main Attacks consume Static to deal extra damage and have reduced spread. Damage is unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Main Attacks consume Static to deal extra damage and have reduced spread. Damage is unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Crystal Knives",
                 "Freestyle",
@@ -18402,11 +18423,12 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Charged Ritual",
-            "desc": "Eye of the Storm applies Static. Shift + Totem while wearing Lunatic detonates Static. Damage and stack limits are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Eye of the Storm applies Static. Shift + Totem while wearing Lunatic detonates Static. Damage and stack limits are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Malediction",
                 "Freestyle",
@@ -18427,7 +18449,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Pool of Rejuvenation",
@@ -18452,7 +18475,7 @@
         },
         {
             "display_name": "Synchrony",
-            "desc": "Certain actions with different masks grow Ritual Circle radius and hit count. Trigger details are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Certain actions with different masks grow Ritual Circle radius and hit count. Trigger details are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Pool of Rejuvenation"
             ],
@@ -18471,7 +18494,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Rupture",
@@ -18751,7 +18775,7 @@
         },
         {
             "display_name": "Awakened",
-            "desc": "Ultimate: gain all Mask effects, set Mantra to 250%, and gain Corporeal Manifestation. Duration and the exact scaled effects are not fully published. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Ultimate: gain all Mask effects, set Mantra to 250%, and gain Corporeal Manifestation. Duration and the exact scaled effects are not fully published. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b> </br>Inherited Corporeal Manifestation: orbiting masks use Mask Throw damage and apply Haunting Memory within 3 blocks. Rotation DPS retains the old one Mask Throw per second model while Awakened is active; ultimate uptime and Mantra scaling remain unmodeled.",
             "parents": [
                 "Overcharge"
             ],
@@ -18769,9 +18793,20 @@
                 "icon": "node_3"
             },
             "properties": {},
-            "effects": [],
+            "effects": [
+                {
+                    "type": "add_spell_prop",
+                    "target_part": "Rotation DPS",
+                    "base_spell": 4,
+                    "display": "Rotation DPS",
+                    "hits": {
+                        "Mask Throw": 1
+                    }
+                }
+            ],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Monument to Gloom",
@@ -18803,7 +18838,7 @@
         },
         {
             "display_name": "Eye of the Storm",
-            "desc": "Lunatic Aura casts grant Surge. Nearby enemies take damage every 1.5s, increasing with Surge. Damage coefficients and the Surge cap are unpublished. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Lunatic Aura casts grant Surge. Nearby enemies take damage every 1.5s, increasing with Surge. Damage coefficients and the Surge cap are unpublished. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Haunting Memory",
                 "Cheaper Uproot I"
@@ -18823,11 +18858,12 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Overcharge",
-            "desc": "Switching from a mask above 150% Mantra instantly charges the next mask to 250% Mantra. </br><b>Provisional snapshot connection. Unpublished effects are excluded from calculated totals.</b>",
+            "desc": "Switching from a mask above 150% Mantra instantly charges the next mask to 250% Mantra. </br><b>Position unknown: select from the checklist. Unpublished effects are excluded from calculated totals.</b>",
             "parents": [
                 "Synchrony"
             ],
@@ -18846,7 +18882,8 @@
             "properties": {},
             "effects": [],
             "snapshot_unmodeled": true,
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         },
         {
             "display_name": "Greater Sacrifice",
@@ -18881,7 +18918,8 @@
                     "toggle": "Activate Boosted Aura"
                 }
             ],
-            "snapshot_provisional": true
+            "snapshot_provisional": true,
+            "snapshot_checklist": true
         }
     ],
     "Any": []

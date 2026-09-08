@@ -14,9 +14,9 @@ for (const file of ['js/utils.js','js/build_utils.js','js/powders.js','js/damage
     'js/builder/atree.js','js/snapshot_224.js']) {
     vm.runInContext(read(file),context,{filename:file});
 }
-context.data = json('data/2.2.4.0/atree.json');
-context.majorData = json('data/2.2.4.0/majid.json');
-context.encData = json('data/2.2.4.0/encoding_consts.json');
+context.data = json('data/2.2.4.1/atree.json');
+context.majorData = json('data/2.2.4.1/majid.json');
+context.encData = json('data/2.2.4.1/encoding_consts.json');
 vm.runInContext(`
 ATREES=data; MAJOR_IDS=majorData; ENC=encData; DEC=encData;
 function evaluateBuild(clazz, names, majorIds=[]) {
@@ -49,7 +49,7 @@ result=run(`evaluateBuild('Archer',['Arrow Bomb'],['FOREST_BLESSING'])`);
 assert.deepEqual(part(result,3,'Arrow Bomb').multipliers,[140,0,0,0,20,0]);
 assert.equal(run(`snapshot224ManaOnHeretic(new Map([['maxMana',40],['int',0]]))`),42);
 assert.equal(run(`snapshot224ManaOnHeretic(new Map([['maxMana',-300],['int',0]]))`),0);
-for (const version of [0,18,33,34]) {
+for (const version of [0,18,33,34,35]) {
     assert.equal(run(`decodeHeader(new BitVectorCursor(encodeHeader(${version})))`),version);
 }
 for (const level of [1,106,121]) assert.equal(run(`decodeLevel(new BitVectorCursor(encodeLevel(${level},34)))`),level);
@@ -57,7 +57,7 @@ for (const clazz of ['Archer','Warrior','Mage','Assassin','Shaman']) {
     const actual=run(`get_sorted_class_atree(ATREES,'${clazz}').map(n=>n.ability.id)`);
     assert.equal(new Set(actual).size,context.data[clazz].length,`${clazz} tree is fully reachable`);
 }
-const items=json('data/2.2.4.0/items.json').items;
+const items=json('data/2.2.4.1/items.json').items;
 const byId=new Map(items.map(i=>[i.id,i]));
 assert.equal(byId.size,items.length,'item IDs must be unique');
 for (const [name,level,damage,rolls] of [
@@ -88,7 +88,7 @@ assert.equal(items.find(i=>i.name==='Galleon').maxMana,58);
 assert.equal(items.find(i=>i.name==='Mist Unit Trousers').fixID,true);
 const oldItems=json('data/2.2.3.0/items.json').items;
 for (const item of oldItems) if(byId.has(item.id)) assert.equal(byId.get(item.id).name,item.name);
-const ingredients=json('data/2.2.4.0/ingreds.json');
+const ingredients=json('data/2.2.4.1/ingreds.json');
 const catalyst=ingredients.find(i=>i.name==='Ritual Catalyst');
 assert.deepEqual(catalyst.ids,{ms:{minimum:8,maximum:8},sdPct:{minimum:6,maximum:6},ls:{minimum:-100,maximum:-100},mdPct:{minimum:-12,maximum:-12}});
 assert.equal(catalyst.itemIDs.strReq,-15);
@@ -98,8 +98,8 @@ const oldIngredients=new Map(json('data/2.2.3.0/ingreds.json').map(i=>[i.id,i]))
 for(const ing of ingredients) for(const [stat,range] of Object.entries(ing.ids || {})) {
     if(range.minimum>range.maximum) assert.deepEqual(range,oldIngredients.get(ing.id)?.ids[stat],ing.name+' must not introduce reversed ranges');
 }
-assert.deepEqual(json('data/2.2.4.0/encoding_consts.json'),json('data/2.2.3.0/encoding_consts.json'));
-assert.deepEqual(json('data/2.2.4.0/items.json'),json('data/baseline/compressed/compress.json'));
+assert.deepEqual(json('data/2.2.4.1/encoding_consts.json'),json('data/2.2.3.0/encoding_consts.json'));
+assert.deepEqual(json('data/2.2.4.1/items.json'),json('data/baseline/compressed/compress.json'));
 assert.deepEqual(ingredients,json('data/baseline/compressed/ingreds_compress.json'));
 for(const page of ['builder/index.html','builder/index_full.html']) {
     const html=read(page);
@@ -111,3 +111,45 @@ for(const page of ['builder/index.html','builder/index_full.html']) {
     }
 }
 console.log('PASS: snapshot spell calculations, item identity, crafting ranges, dataset parity, all-class tree reachability, version header round trips, and script loading order.');
+
+// Checklist nodes are independent, spend AP, and survive tree sharing/reset.
+vm.runInContext(`
+draw_atlas_image = () => {};
+const testElements = new Map();
+document.getElementById = id => { if (!testElements.has(id)) testElements.set(id, {}); return testElements.get(id); };
+const checklistTree = get_sorted_class_atree(ATREES,'Shaman');
+const checklistState = new Map(checklistTree.map(n => [n.ability.id,{...n,active:false,checkbox:{checked:false}}]));
+const free = checklistTree.filter(n=>n.ability.snapshot_checklist);
+for (const n of free) atree_set_state(checklistState.get(n.ability.id),true);
+const validateChecklist = () => atree_validate.compute_func(new Map([['atree',checklistTree],['atree-state',checklistState],['level',121]]));
+`,context);
+assert.equal(run('free.length'),14);
+assert.deepEqual(run('validateChecklist()'),[false,[]]);
+assert.equal(run("testElements.get('active_AP_cost').textContent"),run('free.reduce((s,n)=>s+n.ability.cost,0)'));
+assert.ok(run('free.every(n=>checklistState.get(n.ability.id).checkbox.checked)'));
+assert.ok(run('checklistTree.filter(n=>!n.ability.snapshot_checklist).every(n=>n.parents.every(p=>!p.ability.snapshot_checklist))'));
+assert.deepEqual(run('decodeAtree(checklistTree,encodeAtree(checklistTree,checklistState)).filter(n=>n.ability.snapshot_checklist).map(n=>n.ability.id).sort((a,b)=>a-b)'),run('free.map(n=>n.ability.id).sort((a,b)=>a-b)'));
+vm.runInContext('for (const n of free) atree_set_state(checklistState.get(n.ability.id),false); validateChecklist();',context);
+assert.equal(run("testElements.get('active_AP_cost').textContent"),0);
+assert.ok(run('free.every(n=>!checklistState.get(n.ability.id).checkbox.checked)'));
+result=run(`evaluateBuild('Shaman',['Totem','Aura','Totemic Shatter'])`);
+const inherited=part(result,3,'Single Wave').multipliers[0];
+const baseAura=part(run(`evaluateBuild('Shaman',['Aura'])`),3,'Single Wave').multipliers[0];
+assert.equal(inherited-baseAura,10);
+result=run(`evaluateBuild('Shaman',['Uproot','Mystic Masks','Haunting Memory','Awakened'])`);
+assert.equal(part(result,4,'Rotation DPS').hits['Mask Throw'],1);
+console.log('PASS: checklist AP, independent paths, selection round trips/reset, inherited Egomania and Corporeal Manifestation.');
+
+vm.runInContext(`
+const sacrifice = free.find(n=>n.ability.display_name==='Greater Sacrifice');
+const doubleTotem = checklistTree.find(n=>n.ability.display_name==='Double Totem');
+atree_set_state(checklistState.get(sacrifice.ability.id),true);
+checklistState.get(doubleTotem.ability.id).active=true;
+`,context);
+assert.equal(run('abil_can_activate(sacrifice,checklistState,new Set(),new Map(),50)[1]'),true);
+vm.runInContext('checklistState.get(doubleTotem.ability.id).active=false;',context);
+assert.equal(run('abil_can_activate(sacrifice,checklistState,new Set(),new Map(),0)[0]'),false);
+vm.runInContext('for (const n of checklistTree) checklistState.get(n.ability.id).active=true; validateChecklist();',context);
+assert.equal(run("testElements.get('active_AP_cost').textContent"),run('checklistTree.reduce((s,n)=>s+n.ability.cost,0)'));
+assert.ok(run("validateChecklist()[1].some(e=>e.includes('too many ability points'))"));
+console.log('PASS: confirmed exclusions and AP overspending include checklist selections.');

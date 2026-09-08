@@ -230,6 +230,20 @@ function get_sorted_class_atree(atrees, player_class) {
             atree_topo_sort.push(node);
         }
     }
+    // Checklist entries remain in state/encoding but never gate a tree path.
+    const checklist = atree_topo_sort.filter(n => n.ability.snapshot_checklist);
+    if (checklist.length) {
+        function nearestPlaced(node, seen = new Set()) {
+            if (!node.ability.snapshot_checklist) return [node];
+            if (seen.has(node)) return [];
+            seen.add(node);
+            return node.parents.flatMap(p => nearestPlaced(p, new Set(seen)));
+        }
+        const parents = new Map(atree_topo_sort.map(n => [n, n.ability.snapshot_checklist
+            ? [atree_head] : [...new Set(n.parents.flatMap(p => nearestPlaced(p)))]]));
+        for (const node of atree_topo_sort) { node.children = []; node.parents = parents.get(node); }
+        for (const node of atree_topo_sort) for (const parent of node.parents) parent.children.push(node);
+    }
     return atree_topo_sort;
 }
 
@@ -298,6 +312,11 @@ const atree_state_node = new (class extends ComputeNode {
  */
 function abil_can_activate(atree_node, atree_state, reachable, archetype_count, points_remain) {
     const {parents, ability} = atree_node;
+    if (ability.snapshot_checklist) {
+        const blocked = ability.blockers.filter(id => atree_state.get(id)?.active);
+        if (blocked.length) return [false, true, 'blocked by: ' + blocked.map(id => atree_state.get(id).ability.display_name).join(', ')];
+        return ability.cost <= points_remain ? [true, false, ''] : [false, false, 'not enough ability points left'];
+    }
     if (parents.length === 0) {
         return [true, false, ""];
     }
@@ -370,16 +389,16 @@ const atree_validate = new (class extends ComputeNode {
             const abil = node.ability;
             if (atree_state.get(abil.id).active) {
                 atree_to_add.push([node, 'not reachable', false]);
-                draw_atlas_image(atree_state.get(abil.id).img, atree_node_atlas_img, [atree_node_atlas_positions[abil.display.icon], 2], atree_node_tile_size);
+                if (!abil.snapshot_checklist) draw_atlas_image(atree_state.get(abil.id).img, atree_node_atlas_img, [atree_node_atlas_positions[abil.display.icon], 2], atree_node_tile_size);
             }
             else {
                 atree_not_present.push(abil.id);
-                draw_atlas_image(atree_state.get(abil.id).img, atree_node_atlas_img, [atree_node_atlas_positions[abil.display.icon], 0], atree_node_tile_size);
+                if (!abil.snapshot_checklist) draw_atlas_image(atree_state.get(abil.id).img, atree_node_atlas_img, [atree_node_atlas_positions[abil.display.icon], 0], atree_node_tile_size);
             }
         }
 
         let reachable = new Set();
-        let abil_points_total = 0;
+        let abil_points_total = atree_order.filter(n => atree_state.get(n.ability.id).active).reduce((sum,n) => sum+n.ability.cost,0);
         let archetype_count = new Map();
         while (true) {
             let _add = [];
@@ -397,7 +416,7 @@ const atree_validate = new (class extends ComputeNode {
                     }
                     archetype_count.set(ability.archetype, val);
                 }
-                abil_points_total += ability.cost;
+
                 reachable.add(ability.id);
             }
             if (atree_to_add.length == _add.length) {
@@ -422,7 +441,7 @@ const atree_validate = new (class extends ComputeNode {
         for (const node_id of atree_not_present) {
             const node = atree_state.get(node_id);
             const [success, hard_error, reason] = abil_can_activate(node, atree_state, reachable, archetype_count, ap_left);
-            if (success) {
+            if (success && !node.ability.snapshot_checklist) {
                 draw_atlas_image(node.img, atree_node_atlas_img, [atree_node_atlas_positions[node.ability.display.icon], 1], atree_node_tile_size);
             }
         }
@@ -1235,16 +1254,25 @@ function render_AT(UI_elem, list_elem, hash_elem, tree) {
             max_row = i.ability.display.row;
         }
     }
+    const previousChecklist = document.getElementById('snapshot-node-checklist');
+    if (previousChecklist) previousChecklist.remove();
+    const freeNodes = tree.filter(n => n.ability.snapshot_checklist);
+    const checklist = make_elem('section', ['p-2','my-2','rounded','dark-5'], {id:'snapshot-node-checklist'});
+    if (freeNodes.length) {
+        checklist.append(make_elem('h4', [], {textContent:'Nodes with unknown positions'}));
+        checklist.append(make_elem('p', [], {textContent:'Select independently of tree paths. Each selection spends AP. Confirmed exclusions still apply; Greater Sacrifice’s 1 AP cost is provisional.'}));
+        list_elem.after(checklist);
+    }
     // Copy graph structure.
     for (const i of tree) {
         let node_wrapper = atree_map.get(i.ability.id);
         node_wrapper.parents = [];
         node_wrapper.children = [];
         for (const parent of i.parents) {
-            node_wrapper.parents.push(atree_map.get(parent.ability.id));
+            if (!i.ability.snapshot_checklist && !parent.ability.snapshot_checklist) node_wrapper.parents.push(atree_map.get(parent.ability.id));
         }
         for (const child of i.children) {
-            node_wrapper.children.push(atree_map.get(child.ability.id));
+            if (!i.ability.snapshot_checklist && !child.ability.snapshot_checklist) node_wrapper.children.push(atree_map.get(child.ability.id));
         }
     }
 
@@ -1261,6 +1289,18 @@ function render_AT(UI_elem, list_elem, hash_elem, tree) {
         let node_wrap = atree_map.get(_node.ability.id);
         let ability = _node.ability;
 
+        if (ability.snapshot_checklist) {
+            const row = make_elem('label', ['d-block','my-2']);
+            const checkbox = make_elem('input', ['me-2'], {type:'checkbox'});
+            node_wrap.checkbox = checkbox;
+            row.append(checkbox, document.createTextNode(`${ability.display_name} — ${ability.cost} AP`));
+            checklist.append(row);
+            checkbox.addEventListener('change', () => {
+                atree_set_state(node_wrap, checkbox.checked);
+                atree_state_node.mark_dirty().update();
+            });
+            continue;
+        }
         // create connectors based on parent location
         for (let parent of node_wrap.parents) {
             node_wrap.connectors.set(parent, []);
@@ -1584,6 +1624,11 @@ function set_connector_type(connector_info) {  // left right up down
 
 // toggle the state of a node.
 function atree_set_state(node_wrapper, new_state) {
+    if (node_wrapper.ability.snapshot_checklist) {
+        node_wrapper.active = new_state;
+        if (node_wrapper.checkbox) node_wrapper.checkbox.checked = new_state;
+        return;
+    }
     let icon = node_wrapper.ability.display.icon;
     if (icon === undefined) {
         icon = "node";

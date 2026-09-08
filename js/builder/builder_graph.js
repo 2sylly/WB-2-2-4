@@ -1525,7 +1525,7 @@ function builder_graph_init(skillpoints) {
         const atree_state = atree_state_node.value;
         if (atree_data.length > 0) {
             try {
-                const active_nodes = decodeAtree(atree_node.value, atree_data);
+                const active_nodes = decodeAtree(snapshotPreviousAtrees ? get_sorted_class_atree(snapshotPreviousAtrees, class_node.value) : atree_node.value, atree_data);
                 for (const node of active_nodes) {
                     atree_set_state(atree_state.get(node.ability.id), true);
                 }

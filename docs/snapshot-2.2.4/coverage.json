@@ -40,5 +40,25 @@
     "Greater Sacrifice costs 1 AP.",
     "Awakened replaces Sundered Skies; Corporeal Manifestation is merged into it.",
     "Depersonalization is replaced by Mantra because Masquerade was removed."
-  ]
+  ],
+  "checklist_nodes": [
+    "Strides of Heresy",
+    "Mantra",
+    "Ritual Circle",
+    "Doom",
+    "Transmute",
+    "Frog Dance",
+    "Acid Rain",
+    "Malediction",
+    "Charged Ritual",
+    "Synchrony",
+    "Awakened",
+    "Eye of the Storm",
+    "Overcharge",
+    "Greater Sacrifice"
+  ],
+  "inherited_effects": {
+    "Totemic Shatter": "Egomania +10% Neutral Aura; corrected snapshot value unknown",
+    "Awakened": "Corporeal Manifestation: one Mask Throw per second while active; Mantra and uptime excluded"
+  }
 }

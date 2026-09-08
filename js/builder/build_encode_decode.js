@@ -1,3 +1,4 @@
+let snapshotPreviousAtrees = null;
 let player_build;
 let build_powders;
 
@@ -48,6 +49,9 @@ async function loadOlderVersion() {
         wynn_version_id = WYNN_VERSION_LATEST;
     }
 
+    if (decodingVersion === 34 && wynn_version_id > 34) {
+        snapshotPreviousAtrees = await Loader.load_json('data/2.2.4.0/atree');
+    }
     const versionName = wynn_version_names[wynn_version_id];
     const decodingVersionName = wynn_version_names[decodingVersion];
     assert(decodingVersion <= wynn_version_id, "decoding version cannot be larger than the encoding version.");
