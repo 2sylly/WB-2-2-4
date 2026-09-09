@@ -6,7 +6,7 @@ import subprocess
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-for script in ['snapshot_224.py','snapshot_224_abilities.py','snapshot_224_ascensions.py']:
+for script in ['snapshot_224.py','snapshot_224_abilities.py']:
     args=[sys.executable,str(ROOT/'py_script'/script)]
     if script=='snapshot_224.py': args.append('--write')
     subprocess.run(args,cwd=ROOT,check=True)
